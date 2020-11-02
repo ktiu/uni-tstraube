@@ -1,0 +1,148 @@
+- title: Urban Struggles
+  term: 2014
+  module: Lektürekurs
+  tags: ["seminar", "ba"]
+
+- title: "Global California: LA und Bajalta"
+  term: 2014/15
+  module: "Exkursion: Orte der Globalisierung"
+  co_teachers: mit Marc Boeckler
+  tags: ["seminar", "exkursion", "ma"]
+  links:
+    - url: Syllabus_Bajalta.pdf
+      type: syllabus
+
+- title: Global Technologies
+  term: 2014/15
+  module: Lektürekurs
+  tags: ["seminar", "ba"]
+
+- title: "Malta: Grenzzonen im Mittelmeer"
+  term: 2015
+  module: "Exkursion: Europäische Metropolregionen"
+  co_teachers: mit Julian Stenmanns
+  tags: ["seminar", "ba", "exkursion"]
+  links:
+    - url: Termine_Malta_2015.pdf
+      type: syllabus
+
+- title: Smart Cities und digitale Geographien
+  term: 2015/16
+  module: Vertiefungsseminar Humangeographie
+  tags: ["seminar", "ba"]
+  links: 
+    - url: Syllabus_Smart_Cities.pdf
+      type: syllabus
+
+- title: "Malta: Fragmented Geographies of the Mediterranean"
+  term: 2016
+  module: "Exkursion: Europäische Metropolregionen"
+  co_teachers: mit Julian Stenmanns
+  tags: ["seminar", "ba", "exkursion"]
+  link:
+    - url: Syllabus_Malta_2016.pdf
+      type: syllabus
+
+- title: "Postcolonial Geographies: Technologie, Wissen, Raum"
+  term: 2016
+  module: Vertiefungsseminar Humangeographie II
+  co_teachers: mit Luisa Hoffmann und Julian Stenmanns
+  tags: ["ba", "seminar"]
+  links:
+    - url: Syllabus_poco_geo.pdf
+      type: syllabus
+
+- title: "Bangkok: Markets, Margins, Matter"
+  term: 2016/17
+  module: "Exkursion: Orte der Globalisierung"
+  co_teachers: "mit Marc Boeckler"
+  tags: ["ma", "exkursion", "seminar"]
+  links: 
+  - url: Syllabus_Bangkok_2016.pdf
+    type: syllabus
+
+- title: Big Data? Webbasierte Datenerhebung, exploratives Data Mining und Critical Statistics für die Humangeographie
+  term: 2016/17
+  module: "Projektseminar: Konzeption quantitativer Forschung"
+  co_teachers: mit Jan Kemper
+  tags: ["methods", "ba", "seminar"]
+  links:
+    - url: Syllabus_Big_Data_Kemper_Straube.pdf
+      type: syllabus
+
+- title: Big Data? Webbasierte Datenerhebung, exploratives Data Mining und Critical Statistics für die Humangeographie
+  term: 2017
+  module: "Projektseminar: Konzeption quantitativer Forschung"
+  co_teachers: "mit Jan Kemper"
+  tags: ["methods", "ba", "seminar"]
+  url_syllabus: "/files/pdf/Syllabus_Big_Data_Kemper_Straube.pdf"
+
+- title: Big Data? Webbasierte Datenerhebung, exploratives Data Mining und Critical Statistics für die Humangeographie
+  term: 2017/18
+  module: "Projektseminar: Konzeption quantitativer Forschung"
+  tags: ["methods", "ba", "seminar"]
+  links:
+    - url: Syllabus_Big_Data.pdf
+      type: syllabus
+
+- title: "Statistische Verfahren in der Geographie"
+  term: 2018
+  module: "Vorlesung"
+  links:
+    - url: https://olat-ce.server.uni-frankfurt.de/olat/auth/RepositoryEntry/5859835908/
+      type: olat
+  tags: ["methods", "ba", "lecture"]
+
+- title: Big Data? Webbasierte Datenerhebung, exploratives Data Mining und Critical Statistics für die Humangeographie
+  term: 2018
+  module: "Projektseminar: Konzeption quantitativer Forschung"
+  tags: ["methods", "ba", "seminar"]
+  links:
+    - url: Syllabus_Big_Data.pdf
+      type: syllabus
+
+- title: "Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R"
+  module: "Projektseminar: Quantitative Verfahren in der Humangeographie"
+  term: 2018/19
+  tags: ["methods", "ba", "seminar"]
+
+- title: "Statistische Verfahren in der Geographie"
+  term: 2019
+  module: "Vorlesung"
+  links:
+    - url: "https://olat-ce.server.uni-frankfurt.de/olat/auth/RepositoryEntry/6809255938/"
+      type: olat
+  tags: ["methods", "ba", "lecture"]
+
+- title: "Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R"
+  module: "Projektseminar: Auswertung quantitativer Daten"
+  term: 2019
+  tags: ["methods", "ba", "seminar"]
+
+- title: Statistische Verfahren in der Geographie
+  term: 2020
+  module: Vorlesung
+  links:
+    - url: https://olat-ce.server.uni-frankfurt.de/olat/auth/RepositoryEntry/8139571244
+      type: olat
+
+- title: "Malta: Politics of Infrastructure"
+  term: 2020
+  module: "Exkursion: Europäische Metropolregionen"
+  tags: ["ba", "seminar", "exkursion"]
+  links: 
+    - url: https://olat-ce.server.uni-frankfurt.de/olat/auth/RepositoryEntry/8292892712
+      type: olat
+
+- title: "Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R"
+  module: "Projektseminar: Konzeption quantitativer Forschung"
+  term: 2020/21
+  tags: ["methods", "ba", "seminar"]
+  links:
+    - url: ds21
+      type: online
+
+- title: "Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R"
+  module: "Projektseminar: Analyse quantitativer Daten"
+  term: 2021
+  tags: ["methods", "ba", "seminar"]

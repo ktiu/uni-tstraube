@@ -1,0 +1,41 @@
+title: Till Straube
+email: straube@geo.uni-frankfurt.de
+baseurl: "/~tstraube"
+url: "https://uni-frankfurt.de"
+twitter_username: tillstr
+github_username: ktiu
+
+sass:
+  style: compact
+
+# Build settings
+#theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-scholar
+  - jekyll-multiple-languages-plugin
+
+collections:
+  sections:
+     order:
+       - bio.md
+       - publications.md
+       - teaching.md
+       - contact.md
+
+# i18n
+languages: ["en", "de"]
+exclude_from_localizations: ["js", "images", "css"]
+
+exclude:
+  - README.md
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

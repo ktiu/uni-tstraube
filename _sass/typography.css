@@ -1,0 +1,9 @@
+html, body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: 600;
+}
+
