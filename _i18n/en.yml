@@ -1,5 +1,62 @@
+global:
+  email:          straube@geo.uni-frankfurt.de
+  phone:          "+49 (0) 69 798 35153"
+  fax:            "+49 (0) 69 798 35161"
+  twitter:        tillstr
+  github:         ktiu
+
+lang:
+  current:        English
+  other:          Deutsch
+  switch:         /de
+
 titles:
-  bio:          Short bio
-  publications: Publications
-  teaching:     Teaching
-  contact:      Contact me
+  about:          About me
+  publications:   Selected Publications
+  teaching:       Classes and lectures
+  contact:        Contact me
+
+short_titles:
+  about:          About
+  publications:   Publications
+  teaching:       Teaching
+  contact:        Contact
+
+about:
+  short_bio:      Short bio
+  interests:      Research interests
+  education:      Education
+
+teaching:
+  summer:         Summer
+  winter:         Winter
+  show_all:       Show all classes
+  show_less:      Show fewer classes
+  materials:      Course materials
+  qis:            Course catalog
+
+publications:
+  and:            and
+  editors:        eds
+  in:             In
+  publisher:      Publisher
+
+contact:
+  email:          E-mail
+  phone:          Phone
+  fax:            Fax
+  hours_header:   Office hours
+  office_hours:   Tuesday, 2-4pm *(Please make appointment by e-mail!)*
+  postal_header:  Postal address
+  postal_address: |
+    Institut für Humangeographie
+    Goethe-Universität
+    60629 Frankfurt am Main
+    Germany
+  office_header:  Office address
+  office_address: |
+    Campus Westend | PEG Building
+    Goethe University
+    Theodor W.-Adorno-Platz 6
+    60323 Frankfurt am Main
+    Germany

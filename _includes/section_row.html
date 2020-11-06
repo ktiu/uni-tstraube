@@ -1,0 +1,14 @@
+{% if include.class %}
+  <div class="{{ include.class }}">
+{% endif %}
+<div class="my-2 d-sm-flex align-items-baseline {{ include.class }}">
+  <div class="text-muted" style="flex-basis: 25%">
+    {% if include.header %}<h3>{{ include.header }}</h3>{% endif %}
+  </div>
+  <div style="flex-basis: 75%">
+    {{ include.content }}
+  </div>
+</div>
+{% if include.class %}
+  </div>
+{% endif %}

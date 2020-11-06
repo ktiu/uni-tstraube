@@ -6,12 +6,5 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <title>{{ site.title }}{% if page.title %} | {% t page.title %}{% endif %}</title>
   </head>
-  <body class="h-100 d-flex flex-column">
-    {% include navbar.md %}
-    <div class="container-sm">
-    {{ content }}
-    </div>
-    {% include footer.md %}
-    <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
-  </body>
+  {{ content }}
 </html>

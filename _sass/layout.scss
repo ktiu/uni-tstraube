@@ -1,3 +1,36 @@
-.container-sm {
-  max-width: 960px;
+@include media-breakpoint-up(lg) {
+  .container {
+    max-width: map-get($container-max-widths, lg);
+  }
+}
+
+.masthead {
+  margin: 7rem 0 5rem 0;
+}
+
+@include media-breakpoint-up(md) {
+  .masthead .menu {
+    border-right: 1px solid gu_color(sand_gray);
+  }
+}
+
+section {
+  padding-top: 5rem;
+  margin-top: -5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-header {
+  border-bottom: 1px solid gu_color(sand_gray);
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+[data-toggle="collapse"] {
+    &.collapsed .if-not-collapsed {
+         display: none;
+    }
+    &:not(.collapsed) .if-collapsed {
+         display: none;
+    }
 }

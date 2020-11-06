@@ -1,31 +1,32 @@
 title: Till Straube
-email: straube@geo.uni-frankfurt.de
+
 baseurl: "/~tstraube"
+doc_path: "docs/"
 url: "https://uni-frankfurt.de"
-twitter_username: tillstr
-github_username: ktiu
 
 sass:
   style: compact
 
-# Build settings
-#theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-scholar
   - jekyll-multiple-languages-plugin
 
 collections:
   sections:
      order:
-       - bio.md
+       - about.md
        - publications.md
        - teaching.md
        - contact.md
 
 # i18n
 languages: ["en", "de"]
-exclude_from_localizations: ["js", "images", "css"]
+exclude_from_localizations: ["docs", "assets", "css"]
+
+# scholar
+scholar:
+  bibliography_template: bib
+  
 
 exclude:
   - README.md

@@ -1,0 +1,111 @@
+- type: chapter
+  title: "The Black Box and Its Dis/contents"
+  subtitle: "Complications in Algorithms Research"
+  date: 2019-09-01
+  in_title: "Secrecy and Methods in Security Research" 
+  in_subtitle: "A Guide to Qualitative Fieldwork"
+  in_place: "London"
+  in_publisher: "Routledge"
+  links:
+    - url: "https://www.taylorfrancis.com/books/9780429398186"
+      type: publisher 
+  pages: [175, 192]
+  editors:
+    - first_name: "Marieke"
+      last_name: "de Goede"
+    - first_name: "Esmé"
+      last_name: "Bosma"
+    - first_name: "Polly"
+      last_name: "Pallister-Wilkins"
+  authors:
+  - first_name: "Till"
+    last_name: "Straube"
+
+- type: chapter
+  title: "Policing the Smart City"
+  subtitle: "Eine Taxonomie polizeilicher Prognoseprogramme"
+  date: 2018-09-01
+  in_title: "Smart Cities"
+  in_subtitle: "Kritische Reflexionen aktueller Raumproduktionen mit digitalen Technologien und Smart City Strategien"
+  in_place: "Bielefeld"
+  in_publisher: "Transcript"
+  links:
+    - url: "https://www.transcript-verlag.de/978-3-8376-4336-7/smart-city-kritische-perspektiven-auf-die-digitalisierung-in-staedten/"
+      type: publisher
+  pages: [223, 236]
+  editors:
+    - first_name: "Sybille"
+      last_name: "Bauriedl"
+    - first_name: "Anke"
+      last_name: "Strüver"
+  authors:
+    - first_name: "Till"
+      last_name: "Straube"
+    - first_name: "Bernd"
+      last_name: "Belina"
+
+- type: chapter
+  title: "Algorithmen und Big Data"
+  subtitle: "Perspektiven einer kritischen Forschung"
+  date: 2018-04-01
+  in_title: "Raumproduktionen II"
+  in_subtitle: "Theoretische Kontroversen und politische Auseinandersetzungen"
+  in_place: "Münster"
+  in_publisher: "Westfälisches Dampfboot"
+  selected: true
+  links:
+    - url: "https://www.dampfboot-verlag.de/shop/artikel/raumproduktionen-ii_1"
+      type: publisher
+  pages: [136, 157]
+  authors:
+    - first_name: "Jan"
+      last_name: "Kemper"
+    - first_name: "Till"
+      last_name: "Straube"
+  editors:
+    - first_name: "Anne"
+      last_name: "Vogelpohl"
+    - first_name: "Boris"
+      last_name: "Michel"
+    - first_name: "Henrik"
+      last_name: "Lebuhn"
+    - first_name: "Johanna"
+      last_name: "Hoerning"
+    - first_name: "Bernd"
+      last_name: "Belina"
+
+- type: chapter
+  title: "Situating Digital Infrastructures"
+  date: 2018-01-01
+  in_title: "Data and the City"
+  in_place: "London"
+  in_publisher: "Routledge"
+  links:
+  - url: "https://www.routledge.com/Data-and-the-City/Kitchin-Lauriault-McArdle/p/book/9781138222632"
+    type: publisher
+  pages: [156, 170]
+  authors: 
+    - first_name: "Till"
+      last_name: "Straube"
+  editors:
+    - first_name: "Rob"
+      last_name: "Kitchin"
+    - first_name: "Tracey P."
+      last_name: "Lauriault"
+    - first_name: "Gavin"
+      last_name: "McArdle"
+
+- type: "article"
+  title: "Stacked Spaces"
+  subtitle: "Mapping Digital Infrastructures"
+  date: 2016-09-01
+  journal: "Big Data & Society"
+  volume: 3
+  issue: 2
+  links:
+  - url: "https://journals.sagepub.com/doi/pdf/10.1177/2053951716642456"
+    type: pdf
+  pages: [1,12]
+  authors:
+  - first_name: "Till"
+    last_name: "Straube"

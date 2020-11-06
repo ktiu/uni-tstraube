@@ -1,5 +1,50 @@
 titles:
-  bio:          Kurzbiographie
-  publications: Veröffentlichungen
-  teaching:     Lehre
-  contact:      Kontakt
+  about:          Wissen&shy;schaft&shy;liches Profil
+  publications:   Ausgewählte Veröffent&shy;lichungen
+  teaching:       Lehrveranstaltungen
+  contact:        Kontakt
+
+short_titles:
+  about:          Profil
+  publications:   Texte
+  teaching:       Lehre
+  contact:        Kontakt
+
+about:
+  short_bio:      Kurz&shy;bio&shy;graphie
+  interests:      Forschungs&shy;interessen
+  education:      Ausbildung
+
+teaching:
+  summer:         Sommer
+  winter:         Winter
+  show_all:       Alle Veranstaltungen zeigen
+  show_less:      Weniger Veranstaltungen zeigen
+  materials:      Seminarunterlagen
+  qis:            Vorlesungsverzeichnis
+
+publications:
+  and:            und
+  editors:        Hrsg
+  in:             In
+  publisher:      Verlag
+  show_all:       Alle Texte zeigen
+  show_less:      Weniger Texte zeigen
+
+contact:
+  email:          E-Mail
+  phone:          Telefon
+  fax:            Telefax
+  postal_header:  Post&shy;adresse
+  office_address: Besuchs&shy;adresse
+  hours_header:   Sprech&shy;stunde
+  office_hours:   Dienstags, 14-16h *(Bitte Termin per E-Mail vereinbaren!)*
+  postal_address: |
+    Institut für Humangeographie
+    Goethe-Universität
+    60629 Frankfurt am Main
+  office_address: |
+    Campus Westend | PEG-Gebäude
+    Goethe-Universität
+    Theodor W.-Adorno-Platz 6
+    60323 Frankfurt am Main

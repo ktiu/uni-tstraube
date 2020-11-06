@@ -1,0 +1,11 @@
+---
+layout: default
+---
+  <body class="h-100 d-flex flex-column justify-content-between">
+    {% include navbar.md %}
+    <div class="container flex-grow-1">
+    {{ content }}
+    </div>
+    {% include footer.md %}
+    <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
+  </body>

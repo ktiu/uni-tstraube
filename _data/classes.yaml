@@ -6,7 +6,8 @@
 - title: "Global California: LA und Bajalta"
   term: 2014/15
   module: "Exkursion: Orte der Globalisierung"
-  co_teachers: mit Marc Boeckler
+  co_teachers:
+    - Marc Boeckler
   tags: ["seminar", "exkursion", "ma"]
   links:
     - url: Syllabus_Bajalta.pdf
@@ -20,7 +21,8 @@
 - title: "Malta: Grenzzonen im Mittelmeer"
   term: 2015
   module: "Exkursion: Europäische Metropolregionen"
-  co_teachers: mit Julian Stenmanns
+  co_teachers:
+    - Julian Stenmanns
   tags: ["seminar", "ba", "exkursion"]
   links:
     - url: Termine_Malta_2015.pdf
@@ -37,7 +39,8 @@
 - title: "Malta: Fragmented Geographies of the Mediterranean"
   term: 2016
   module: "Exkursion: Europäische Metropolregionen"
-  co_teachers: mit Julian Stenmanns
+  co_teachers:
+    - Julian Stenmanns
   tags: ["seminar", "ba", "exkursion"]
   link:
     - url: Syllabus_Malta_2016.pdf
@@ -46,7 +49,9 @@
 - title: "Postcolonial Geographies: Technologie, Wissen, Raum"
   term: 2016
   module: Vertiefungsseminar Humangeographie II
-  co_teachers: mit Luisa Hoffmann und Julian Stenmanns
+  co_teachers:
+    - Luisa Hoffmann
+    - Julian Stenmanns
   tags: ["ba", "seminar"]
   links:
     - url: Syllabus_poco_geo.pdf
@@ -89,7 +94,7 @@
   term: 2018
   module: "Vorlesung"
   links:
-    - url: https://olat-ce.server.uni-frankfurt.de/olat/auth/RepositoryEntry/5859835908/
+    - url: 5859835908
       type: olat
   tags: ["methods", "ba", "lecture"]
 
@@ -110,7 +115,7 @@
   term: 2019
   module: "Vorlesung"
   links:
-    - url: "https://olat-ce.server.uni-frankfurt.de/olat/auth/RepositoryEntry/6809255938/"
+    - url: 6809255938
       type: olat
   tags: ["methods", "ba", "lecture"]
 
@@ -123,16 +128,20 @@
   term: 2020
   module: Vorlesung
   links:
-    - url: https://olat-ce.server.uni-frankfurt.de/olat/auth/RepositoryEntry/8139571244
+    - url: 8139571244
       type: olat
+    - url: 292358
+      type: qis
 
 - title: "Malta: Politics of Infrastructure"
   term: 2020
   module: "Exkursion: Europäische Metropolregionen"
   tags: ["ba", "seminar", "exkursion"]
   links: 
-    - url: https://olat-ce.server.uni-frankfurt.de/olat/auth/RepositoryEntry/8292892712
+    - url: 8292892712
       type: olat
+    - url: 297780
+      type: qis
 
 - title: "Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R"
   module: "Projektseminar: Konzeption quantitativer Forschung"
@@ -140,7 +149,9 @@
   tags: ["methods", "ba", "seminar"]
   links:
     - url: ds21
-      type: online
+      type: materials
+    - url: 303568
+      type: qis
 
 - title: "Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R"
   module: "Projektseminar: Analyse quantitativer Daten"

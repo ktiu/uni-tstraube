@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+  <body data-spy="scroll" data-target="#menu" class="d-flex flex-column">
+    {% include navbar.md index=true %}
+    <div class="container">
+    {{ content }}
+    </div>
+    {% include footer.md %}
+    <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
+  </body>

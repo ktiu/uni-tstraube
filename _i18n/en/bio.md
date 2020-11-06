@@ -2,4 +2,4 @@ I am a Research Associate at the Department of Human Geography at Goethe Univers
 
 My research interests center around critical data science, digital infrastructures and security technologies. My paper-based PhD project will come to a conclusion at the end of 2019.
 
-I am associated with the Center for Methods in the Social Sciences (Methodenzentrum Sozialwissenschaften) and the program „Starker Start insStudium“. As Erasmus+ Coordinator, I facilitate study abroad opportunities for Geography students. 
+I am associated with the Center for Methods in the Social Sciences (Methodenzentrum Sozialwissenschaften) and the program „Starker Start ins Studium“. As Erasmus+ Coordinator, I facilitate study abroad opportunities for Geography students. 

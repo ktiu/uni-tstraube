@@ -3,7 +3,6 @@ gem "jekyll", "~> 4.1.1"
 gem 'bootstrap', '~> 5.0.0.alpha1'
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-scholar"
   gem 'jekyll-multiple-languages-plugin'
 end
 

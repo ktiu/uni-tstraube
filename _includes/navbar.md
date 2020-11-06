@@ -1,22 +1,40 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-sm d-flex flex-row justify-content-between">
-    <div>
-      <a class="navbar-brand" href="#">Till Straube</a>
+{% if include.index %}
+<nav class="navbar navbar-light fixed-top navbar-expand-md">
+  <div class="w-100 h-100 position-absolute nav-fade bg-light border-bottom" style="z-index:-1"></div>
+{% else %}
+<nav class="navbar navbar-light navbar-expand-md w-100 bg-light border-bottom"></div>
+{% endif %}
+  <div class="container z-index-1">
+    <h1 class="mr-auto order-1">
+      <a{% if include.index %} class="nav-fade"{% endif %} href="#">{{ site.title }}</a>
+    </h1>
+    <div class="{% if include.index %}nav-fade {% endif %} order-3 order-md-2">
+      <ul class="nav navbar-nav mb-0" id="menu">
+{% for section in site.sections %}
+{% capture uri %}
+{% unless include.index %}{{ site.baseurl }}/{% endunless %}#{{section.slug}}
+{% endcapture %}
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="{{ uri | strip }}">{% t section.short_title %}</a>
+        </li>
+{% endfor %}
+      </ul>
     </div>
-    <div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
+    <ul class="navbar-nav ml-auto mb-0 order-2 order-md-3">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-language fa-lg mx-2"></i>{{ site.lang  }}</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        {% if site.lang=="de" %}
+          <li><a class="dropdown-item" href="{{ site.baseurl_root }}/">English</a></li>
+          <li><span class="dropdown-item">Deutsch<i class="fas fa-check ml-2"></i></span></li>
+        {% else %}
+          <li><span class="dropdown-item">English<i class="fas fa-check ml-2"></i></span></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl_root }}/de/">Deutsch</a></li>
+        {% endif %}
         </ul>
-      </div>
-    </div>
+      </li>
+    </ul>
+{% if include.index %}
   </div>
+{% endif %}
 </nav>
