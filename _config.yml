@@ -27,6 +27,7 @@ exclude_from_localizations: ["docs", "assets", "css"]
 scholar:
   bibliography_template: bib
   
+keep_files: ["c"]
 
 exclude:
   - README.md
