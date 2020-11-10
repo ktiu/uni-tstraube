@@ -3,6 +3,9 @@ title: Till Straube
 baseurl: "/~tstraube"
 doc_path: "docs/"
 url: "https://uni-frankfurt.de"
+twitter: tillstr
+scholar: KeAyNsgAAAAJ
+github: ktiu
 
 sass:
   style: compact
@@ -22,10 +25,6 @@ collections:
 # i18n
 languages: ["en", "de"]
 exclude_from_localizations: ["docs", "assets", "css"]
-
-# scholar
-scholar:
-  bibliography_template: bib
   
 keep_files: ["c"]
 

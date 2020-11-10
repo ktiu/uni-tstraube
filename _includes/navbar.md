@@ -8,7 +8,7 @@
     <h1 class="mr-auto order-1">
       <a{% if include.index %} class="nav-fade"{% endif %} href="#">{{ site.title }}</a>
     </h1>
-    <div class="{% if include.index %}nav-fade {% endif %} order-3 order-md-2">
+    <div class="{% if include.index %}nav-fade {% endif %} nav-menu order-3 order-md-2">
       <ul class="nav navbar-nav mb-0" id="menu">
 {% for section in site.sections %}
 {% capture uri %}

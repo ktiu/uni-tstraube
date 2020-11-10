@@ -5203,6 +5203,11 @@ readers do not read off random characters that represent icons */
 
 .fa, .fas { font-family: 'Font Awesome 5 Free'; font-weight: 900; }
 
+/*! Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) */
+@font-face { font-family: 'Font Awesome 5 Brands'; font-style: normal; font-weight: 400; font-display: block; src: url("../../assets/webfonts/fa-brands-400.eot"); src: url("../../assets/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../../assets/webfonts/fa-brands-400.woff2") format("woff2"), url("../../assets/webfonts/fa-brands-400.woff") format("woff"), url("../../assets/webfonts/fa-brands-400.ttf") format("truetype"), url("../../assets/webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+
+.fab { font-family: 'Font Awesome 5 Brands'; font-weight: 400; }
+
 @media (min-width: 992px) { .container { max-width: 960px; } }
 
 .masthead { margin: 7rem 0 5rem 0; }
@@ -5217,6 +5222,12 @@ section { padding-top: 5rem; margin-top: -5rem; margin-bottom: 1.5rem; }
 
 [data-toggle="collapse"]:not(.collapsed) .if-collapsed { display: none; }
 
+footer .icons a { font-size: 1.5rem; color: rgba(0, 0, 0, 0.55); }
+
+.masthead .icons a { font-size: 2rem; }
+
+footer .icons a:hover { color: rgba(0, 0, 0, 0.7); }
+
 .nav-fade { display: none; }
 
 .navbar-nav { flex-direction: row; flex-wrap: wrap; }
@@ -5225,13 +5236,13 @@ section { padding-top: 5rem; margin-top: -5rem; margin-bottom: 1.5rem; }
 
 .navbar-expand-md .navbar-nav .nav-link { padding-right: 0.5rem; padding-left: 0.5rem; }
 
-@media (min-width: 576px) { .navbar-title { flex-basis: auto; } }
+@media (min-width: 768px) { .navbar-title { flex-basis: auto; } }
 
 .navbar h1, .navbar .h1 { margin-right: auto; }
 
-.navbar #menu { flex-basis: 100%; margin-left: -0.5rem; margin-right: auto; }
+.navbar .nav-menu { flex-basis: 100%; margin-left: -0.5rem; margin-right: auto; }
 
-@media (min-width: 768px) { .navbar #menu { margin-left: auto; flex-basis: auto; } }
+@media (min-width: 768px) { .navbar .nav-menu { margin-left: auto; flex-basis: auto; } }
 
 --- --- html, body { font-family: "Source Sans Pro", sans-serif; }
 

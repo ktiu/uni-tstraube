@@ -18,4 +18,7 @@
       </div>
     </div>
   </div>
+  <div class="text-center icons mt-4">
+  {% include icons.html %}
+  </div>
 </div>

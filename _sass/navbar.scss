@@ -18,7 +18,7 @@
     padding-left: 0.5rem;
 }
 
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-up(md) {
   .navbar-title {
     flex-basis: auto;
   }
@@ -28,14 +28,14 @@
   margin-right: auto;
 }
 
-.navbar #menu {
+.navbar .nav-menu {
   flex-basis: 100%;
   margin-left: -0.5rem;
   margin-right: auto;
 }
 
 @include media-breakpoint-up(md) {
-  .navbar #menu {
+  .navbar .nav-menu {
     margin-left: auto;
     flex-basis: auto;
   }
