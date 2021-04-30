@@ -5210,11 +5210,11 @@ readers do not read off random characters that represent icons */
 
 @media (min-width: 992px) { .container { max-width: 960px; } }
 
-.masthead { margin: 7rem 0 5rem 0; }
+.masthead { margin: 5rem 0 2.5rem 0; }
 
 @media (min-width: 768px) { .masthead .menu { border-right: 1px solid #e4e3dd; } }
 
-section { padding-top: 5rem; margin-top: -5rem; margin-bottom: 1.5rem; }
+section { padding-top: 3rem; margin-top: -3rem; margin-bottom: 1.5rem; }
 
 .section-header { border-bottom: 1px solid #e4e3dd; margin-top: 2rem; margin-bottom: 1.5rem; }
 

@@ -157,3 +157,14 @@
   module: "Projektseminar: Analyse quantitativer Daten"
   term: 2021
   tags: ["methods", "ba", "seminar"]
+
+- title: Statistische Verfahren in der Geographie
+  term: 2021
+  module: Vorlesung
+  links:
+    - url: stat21
+      type: materials
+    - url: 10811179011
+      type: olat
+    - url: 317000
+      type: qis
