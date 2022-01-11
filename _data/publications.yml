@@ -1,21 +1,11 @@
 - type: article
   title: Interfacing Global AI
-  subtitle: Algorithms and the Attributes of Ourselves and Others
   date: 2022-01-01
   authors:
     - first_name: Till
       last_name: Straube
     - first_name: Seyram
       last_name: Avle
-  journal: The AAG Review of Books
-  volume: 9
-  issue: 3
-  links:
-    - url: 10.1080/2325548X.2021.1921458
-      type: doi
-    - url: "https://www.tandfonline.com/doi/epub/10.1080/2325548X.2021.1921458"
-      type: pdf
-  pages: [36, 49]
 
 - type: article
   title: "Review: Cloud Ethics"
