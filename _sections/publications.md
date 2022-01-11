@@ -93,7 +93,7 @@ short_title: short_titles.publications
     {% assign text = "<i class='fas fa-link mr-2'></i>" | append: publisher %}
     {% assign url = link.url %}
   {% elsif link.type == "doi" %}
-    {% assign text = "<i class='fas fa-cube mr-2'></i>" | append: "DOI" %}
+    {% assign text = "<i class='ai ai-doi mr-2'></i>" | append: "DOI" %}
     {% capture url %}
     https://doi.org/{{ link.url }}
     {% endcapture %}
