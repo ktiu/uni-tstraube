@@ -3,7 +3,6 @@ layout: long_page
 hide_brand: true
 ---
 
-
 {% include masthead.md %}
 
 {% for section in site.sections %}
@@ -17,19 +16,4 @@ hide_brand: true
 </section>
 
 {% endfor %}
-
-<script src="https://code.jquery.com/jquery-latest.js"></script>
-<script type="text/javascript">
-(function($) {
-    $(document).ready(function(){
-        $(window).scroll(function(){
-            if ($(this).scrollTop() > 200) {
-                $('.nav-fade').fadeIn(500);
-            } else {
-                $('.nav-fade').fadeOut(500);
-            }
-        });
-    });
-})(jQuery);
-</script>
 

@@ -9,4 +9,18 @@ layout: default
     </div>
     {% include footer.md %}
     <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl_root }}"></script>
+    <script src="{{ "/assets/js/jquery-3.6.0.min.js" | prepend: site.baseurl_root }}"></script>
+    <script type="text/javascript">
+    (function($) {
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 200) {
+                    $('.nav-fade').fadeIn(500);
+                } else {
+                    $('.nav-fade').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+    </script>
   </body>

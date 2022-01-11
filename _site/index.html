@@ -1664,22 +1664,6 @@ Germany<br />
 
 </section>
 
-<script src="https://code.jquery.com/jquery-latest.js"></script>
-
-<script type="text/javascript">
-(function($) {
-    $(document).ready(function(){
-        $(window).scroll(function(){
-            if ($(this).scrollTop() > 200) {
-                $('.nav-fade').fadeIn(500);
-            } else {
-                $('.nav-fade').fadeOut(500);
-            }
-        });
-    });
-})(jQuery);
-</script>
-
 
     </div>
     <footer class="footer mt-auto py-3 bg-light border-top">
@@ -1697,6 +1681,20 @@ Germany<br />
 </footer>
 
     <script src="/~tstraube/assets/js/bootstrap.min.js"></script>
+    <script src="/~tstraube/assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+    (function($) {
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 200) {
+                    $('.nav-fade').fadeIn(500);
+                } else {
+                    $('.nav-fade').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+    </script>
   </body>
 
 </html>
