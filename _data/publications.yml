@@ -1,3 +1,98 @@
+- type: article
+  title: Interfacing Global AI
+  subtitle: Algorithms and the Attributes of Ourselves and Others
+  date: 2022-01-01
+  authors:
+    - first_name: Till
+      last_name: Straube
+    - first_name: Seyram
+      last_name: Avle
+  journal: The AAG Review of Books
+  volume: 9
+  issue: 3
+  links:
+    - url: 10.1080/2325548X.2021.1921458
+      type: doi
+    - url: "https://www.tandfonline.com/doi/epub/10.1080/2325548X.2021.1921458"
+      type: pdf
+  pages: [36, 49]
+
+- type: article
+  title: "Review: Cloud Ethics"
+  subtitle: Algorithms and the Attributes of Ourselves and Others
+  date: 2021-07-08
+  journal: The AAG Review of Books
+  volume: 9
+  issue: 3
+  links:
+    - url: 10.1080/2325548X.2021.1921458
+      type: doi
+    - url: "https://www.tandfonline.com/doi/epub/10.1080/2325548X.2021.1921458"
+      type: pdf
+  pages: [36, 49]
+  authors:
+    - first_name: Andrew C.
+      last_name: Dwyer
+    - first_name: Nathaniel 
+      last_name: O'Grady
+    - first_name: Pip 
+      last_name: Thornton
+    - first_name: Till
+      last_name: Straube
+    - first_name: Emily
+      last_name: Gilbert
+    - first_name: Louise
+      last_name: Amoore
+
+- type: chapter
+  title: Einleitung
+  subtitle: Digitale Geographien als forschende Praxis
+  date: 2021-08-01
+  in_title: "Handbuch Digitale Geographien"
+  in_subtitle: "Welt – Wissen – Werkzeuge"
+  in_place: "Paderborn"
+  in_publisher: "Schöningh (UTB)"
+  links:
+    - url: "https://www.utb.de/doi/book/10.36198/9783838555676"
+      type: publisher 
+  pages: [9, 24]
+  editors:
+    - first_name: "Tabea"
+      last_name: "Bork-Hüffer"
+    - first_name: "Henning"
+      last_name: "Füller"
+    - first_name: "Till"
+      last_name: "Straube"
+  authors:
+    - first_name: "Tabea"
+      last_name: "Bork-Hüffer"
+    - first_name: "Henning"
+      last_name: "Füller"
+    - first_name: "Till"
+      last_name: "Straube"
+
+- type: chapter
+  title: "Datenbeschaffung"
+  date: 2021-08-02
+  in_title: "Handbuch Digitale Geographien"
+  in_subtitle: "Welt – Wissen – Werkzeuge"
+  in_place: "Paderborn"
+  in_publisher: "Schöningh (UTB)"
+  links:
+    - url: "https://www.utb.de/doi/book/10.36198/9783838555676"
+      type: publisher 
+  pages: [273, 278]
+  editors:
+    - first_name: "Tabea"
+      last_name: "Bork-Hüffer"
+    - first_name: "Henning"
+      last_name: "Füller"
+    - first_name: "Till"
+      last_name: "Straube"
+  authors:
+    - first_name: "Till"
+      last_name: "Straube"
+
 - type: chapter
   title: "The Black Box and Its Dis/contents"
   subtitle: "Complications in Algorithms Research"
@@ -18,8 +113,30 @@
     - first_name: "Polly"
       last_name: "Pallister-Wilkins"
   authors:
-  - first_name: "Till"
-    last_name: "Straube"
+    - first_name: "Till"
+      last_name: "Straube"
+
+- type: chapter
+  title:  Emancipatory Mapmaking
+  subtitle: Lessons from Kibera
+  date: 2018-01-01
+  authors:
+    - first_name: Erica
+      last_name: Hagen
+    - first_name: Julian
+      last_name: Stenmanns
+    - first_name: Till
+      last_name: Straube
+  in_title: This Is Not an Atlas
+  in_subtitle: A Global Collection of Counter-Cartographies
+  in_place: Bielefeld
+  in_publisher: Transcript
+  links:
+    - url: https://www.transcript-verlag.de/978-3-8376-4519-4/this-is-not-an-atlas/
+      type: publisher
+  pages: [230, 235]
+  editors:
+   - last_name: "Kollektiv Orangotango+"
 
 - type: chapter
   title: "Policing the Smart City"
@@ -103,6 +220,8 @@
   volume: 3
   issue: 2
   links:
+  - url: 10.1177/2053951716642456
+    type: doi
   - url: "https://journals.sagepub.com/doi/pdf/10.1177/2053951716642456"
     type: pdf
   pages: [1,12]

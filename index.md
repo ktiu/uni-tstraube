@@ -20,9 +20,9 @@ hide_brand: true
 
 <script src="https://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript">
-(function($) {          
-    $(document).ready(function(){                    
-        $(window).scroll(function(){                          
+(function($) {
+    $(document).ready(function(){
+        $(window).scroll(function(){
             if ($(this).scrollTop() > 200) {
                 $('.nav-fade').fadeIn(500);
             } else {

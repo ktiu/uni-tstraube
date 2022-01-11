@@ -11,7 +11,7 @@ short_title: short_titles.publications
 
 {% assign i = i | plus: 1 %}
 {% if i == 6 %}
-  <div class="collapse teaching-expand">
+  <div class="collapse publications-expand">
 {% endif %}
 
 {% assign this_year = publication.date | date: '%Y' %}
@@ -21,6 +21,14 @@ short_title: short_titles.publications
 {% endcapture %}
 
 {% assign year = this_year %}
+
+{% capture show_date %}
+{% if publication.type == "submitted" %}
+{% t publications.submitted %}
+{% else %}
+{{ this_year }}
+{% endif %}
+{% endcapture %}
 
 {% assign first_author = publication.authors | first %}
 {% assign author_count = publication.authors | size %}
@@ -70,10 +78,12 @@ short_title: short_titles.publications
 
 {% capture content %}
 <p>
-{{ authors | strip }}. {{ this_year }}.<strong>{% if publication.title %}<br />
+{{ authors | strip }}. {{ show_date | strip }}.<strong>{% if publication.title %}<br />
 {{ publication.title }}{% endif %}{% if publication.subtitle %}.
 {{ publication.subtitle }}{% endif %}.</strong><br />
+{% if publication.type != "submitted" %}
 {{ published }}<br />
+{% endif %}
 {% for link in publication.links %}
   {% if link.type == "pdf" %}
     {% assign text = "<i class='fas fa-file-pdf mr-2'></i>PDF" %}
@@ -82,11 +92,16 @@ short_title: short_titles.publications
     {% capture publisher %}{% t publications.publisher %}{% endcapture %}
     {% assign text = "<i class='fas fa-link mr-2'></i>" | append: publisher %}
     {% assign url = link.url %}
+  {% elsif link.type == "doi" %}
+    {% assign text = "<i class='fas fa-cube mr-2'></i>" | append: "DOI" %}
+    {% capture url %}
+    https://doi.org/{{ link.url }}
+    {% endcapture %}
   {% else %}
     {% assign text = "Link" %}
     {% assign url = link.url %}
   {% endif %}
-  <a class="btn btn-sm btn-outline-primary mt-1" href="{{ url }}">{{ text }}</a>
+  <a class="btn btn-sm btn-outline-primary mt-1" href="{{ url | strip }}">{{ text }}</a>
 {% endfor %}
 </p>
 {% endcapture %}
@@ -97,5 +112,8 @@ short_title: short_titles.publications
 
 {% if i > 5 %}
   </div>
-  <button class="btn btn-primary form-control" type="button" data-toggle="collapse" data-target=".teaching-expand">Show all</button>
+  <button class="btn btn-primary form-control collapsed" type="button" data-toggle="collapse" data-target=".publications-expand">
+    <span class="if-collapsed">{% t publications.show_all %}<i class="fas fa-caret-down ml-2"></i></span>
+    <span class="if-not-collapsed">{% t publications.show_less %}<i class="fas fa-caret-up ml-2"></i></span>
+  </button>
 {% endif %}

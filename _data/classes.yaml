@@ -157,6 +157,11 @@
   module: "Projektseminar: Analyse quantitativer Daten"
   term: 2021
   tags: ["methods", "ba", "seminar"]
+  links:
+    - url: ds21
+      type: materials
+    - url: 318095
+      type: qis
 
 - title: Statistische Verfahren in der Geographie
   term: 2021
@@ -168,3 +173,20 @@
       type: olat
     - url: 317000
       type: qis
+
+- title: Telling Data Stories
+  module: Projektseminar
+  term: 2021/22
+  tags: ["methods", "ma", "seminar"]
+  links:
+    - url: https://stsinfrastructures.org/content/telling-data-stories
+      type: web
+    - url: 321451
+      type: qis
+
+- title: Malta
+  module: "Exkursion: Europäische Metropolregionen"
+  term: 2022
+  tags: ["seminar", "ba", "exkursion"]
+  co_teachers:
+    - Marc Boeckler

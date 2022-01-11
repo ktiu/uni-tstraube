@@ -8,5 +8,5 @@ layout: default
     {{ content }}
     </div>
     {% include footer.md %}
-    <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl_root }}"></script>
   </body>

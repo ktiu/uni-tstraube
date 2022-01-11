@@ -24,7 +24,7 @@ collections:
 
 # i18n
 languages: ["en", "de"]
-exclude_from_localizations: ["docs", "assets", "css"]
+exclude_from_localizations: ["docs", "assets", "css", "js"]
   
 keep_files: ["c", "box"]
 

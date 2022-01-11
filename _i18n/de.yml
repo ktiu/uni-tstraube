@@ -28,8 +28,9 @@ publications:
   editors:        Hrsg
   in:             In
   publisher:      Verlag
-  show_all:       Alle Texte zeigen
-  show_less:      Weniger Texte zeigen
+  show_all:       Alle Veröffentlichungen zeigen
+  show_less:      Weniger Veröffentlichungen zeigen
+  submitted:      Eingereicht
 
 contact:
   email:          E-Mail

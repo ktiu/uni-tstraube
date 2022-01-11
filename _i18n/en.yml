@@ -40,6 +40,9 @@ publications:
   editors:        eds
   in:             In
   publisher:      Publisher
+  submitted:      Submitted
+  show_all:       Show all publications
+  show_less:      Show fewer publications
 
 contact:
   email:          E-mail
