@@ -22,6 +22,7 @@ teaching:
   show_less:      Weniger Veranstaltungen zeigen
   materials:      Seminarunterlagen
   qis:            Vorlesungsverzeichnis
+  with:           mit
 
 publications:
   and:            und
@@ -36,14 +37,14 @@ contact:
   email:          E-Mail
   phone:          Telefon
   fax:            Telefax
-  postal_header:  Post&shy;adresse
-  office_address: Besuchs&shy;adresse
   hours_header:   Sprech&shy;stunde
   office_hours:   Dienstags, 14-16h *(Bitte Termin per E-Mail vereinbaren!)*
+  postal_header:  Post&shy;adresse
   postal_address: |
     Institut für Humangeographie
     Goethe-Universität
     60629 Frankfurt am Main
+  office_header: Besuchs&shy;adresse
   office_address: |
     Campus Westend | PEG-Gebäude
     Goethe-Universität

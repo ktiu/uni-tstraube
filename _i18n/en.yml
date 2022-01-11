@@ -34,6 +34,7 @@ teaching:
   show_less:      Show fewer classes
   materials:      Course materials
   qis:            Course catalog
+  with:           with
 
 publications:
   and:            and

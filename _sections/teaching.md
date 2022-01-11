@@ -23,10 +23,22 @@ short_title: short_titles.teaching
   {% endif %}
 {% endcapture %}
 {% assign term = class.term %}
+{% capture co_teachers %}
+  {% t teaching.with %}
+  {% for co_teacher in class.co_teachers %}
+    {% if forloop.index > 1 and forloop.last %}
+      {% t publications.and %}
+    {% endif %}
+    {{ co_teacher }}
+  {% endfor %}
+{% endcapture %}
 {% capture content %}
 <p>
 <strong>{{ class.title }}</strong><br />
 <i>{{ class.module }}</i><br>
+{% if class.co_teachers %}
+{{ co_teachers }}<br>
+{% endif %}
 {% for link in class.links %}
   {% if link.type == "syllabus" %}
     {% assign text = "<i class='fas fa-file-pdf mr-2'></i>Syllabus" %}

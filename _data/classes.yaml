@@ -60,7 +60,8 @@
 - title: "Bangkok: Markets, Margins, Matter"
   term: 2016/17
   module: "Exkursion: Orte der Globalisierung"
-  co_teachers: "mit Marc Boeckler"
+  co_teachers: 
+    - Marc Boeckler
   tags: ["ma", "exkursion", "seminar"]
   links: 
   - url: Syllabus_Bangkok_2016.pdf
@@ -69,7 +70,8 @@
 - title: Big Data? Webbasierte Datenerhebung, exploratives Data Mining und Critical Statistics für die Humangeographie
   term: 2016/17
   module: "Projektseminar: Konzeption quantitativer Forschung"
-  co_teachers: mit Jan Kemper
+  co_teachers:
+    - Jan Kemper
   tags: ["methods", "ba", "seminar"]
   links:
     - url: Syllabus_Big_Data_Kemper_Straube.pdf
@@ -78,7 +80,8 @@
 - title: Big Data? Webbasierte Datenerhebung, exploratives Data Mining und Critical Statistics für die Humangeographie
   term: 2017
   module: "Projektseminar: Konzeption quantitativer Forschung"
-  co_teachers: "mit Jan Kemper"
+  co_teachers:
+    - Jan Kemper
   tags: ["methods", "ba", "seminar"]
   url_syllabus: "/files/pdf/Syllabus_Big_Data_Kemper_Straube.pdf"
 
@@ -178,6 +181,9 @@
   module: Projektseminar
   term: 2021/22
   tags: ["methods", "ma", "seminar"]
+  co_teachers:
+    - Martina Klausner
+    - Estrid Sørensen
   links:
     - url: https://stsinfrastructures.org/content/telling-data-stories
       type: web

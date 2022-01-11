@@ -13,7 +13,7 @@ short_title: short_titles.contact
 {% include section_row.html header=header content=content %}
 
 {% capture header %}
-<i class="fas fa-at mr-2"></i>{% t contact.hours_header %}
+<i class="fas fa-door-open mr-2"></i>{% t contact.hours_header %}
 {% endcapture %}
 {% capture hours %}
 {% t contact.office_hours %}
