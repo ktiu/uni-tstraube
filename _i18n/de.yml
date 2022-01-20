@@ -38,6 +38,8 @@ contact:
   phone:          Telefon
   fax:            Telefax
   hours_header:   Sprech&shy;stunde
+  pronouns_header: Pronomen
+  pronouns:       er, ihn, ihm, sein
   office_hours:   |
     | Dienstags, 14--16h
     | *Bitte Termin per E-Mail vereinbaren!*

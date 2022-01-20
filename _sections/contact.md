@@ -25,6 +25,12 @@ short_title: short_titles.contact
 {% include section_row.html header=header content=content %}
 
 {% capture header %}
+<i class="fas fa-comment mr-2"></i>{% t contact.pronouns_header %}
+{% endcapture %}
+{% capture content %}<p>{% t contact.pronouns %}</p>{% endcapture %}
+{% include section_row.html header=header content=content %}
+
+{% capture header %}
 <i class="fas fa-phone mr-2"></i>{% t contact.phone %}
 {% endcapture %}
 {% capture content %}<p>{% t global.phone %}</p>{% endcapture %}
@@ -34,7 +40,6 @@ short_title: short_titles.contact
 <i class="fas fa-fax mr-2"></i>{% t contact.fax %}
 {% endcapture %}
 {% capture content %}<p>{% t global.fax %}</p>{% endcapture %}
-
 {% include section_row.html header=header content=content %}
 
 {% capture header %}
