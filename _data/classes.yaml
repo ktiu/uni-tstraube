@@ -130,6 +130,7 @@
 - title: Statistische Verfahren in der Geographie
   term: 2020
   module: Vorlesung
+  tags: ["methods", "ba", "lecture"]
   links:
     - url: 8139571244
       type: olat
@@ -168,10 +169,9 @@
 
 - title: Statistische Verfahren in der Geographie
   term: 2021
+  tags: ["methods", "ba", "lecture"]
   module: Vorlesung
   links:
-    - url: stat21
-      type: materials
     - url: 10811179011
       type: olat
     - url: 317000
@@ -196,3 +196,26 @@
   tags: ["seminar", "ba", "exkursion"]
   co_teachers:
     - Marc Boeckler
+  links:
+    - url: 332736
+      type: qis
+
+- title: Erstellung und Präsentation einer wissenschaftlichen Arbeit
+  module: Forschungsseminar 2
+  term: 2022
+  tags: ["seminar", "ba"]
+  links:
+    - url: 332744
+      type: qis
+
+- title: Statistische Verfahren in der Geographie
+  term: 2022
+  module: Vorlesung
+  tags: ["methods", "ba", "lecture"]
+  links:
+    - url: stat22
+      type: materials
+    - url: 14536605696
+      type: olat
+    - url: 332733
+      type: qis
