@@ -13,15 +13,15 @@ lang:
 
 titles:
   about:          About me
-  publications:   Selected Publications
+  publications:   Latest Publications
   teaching:       Classes and lectures
-  contact:        Contact me
+  contact:        Contact information
 
 short_titles:
-  about:          About
+  about:          About me
   publications:   Publications
   teaching:       Teaching
-  contact:        Contact
+  contact:        Contact me
 
 about:
   short_bio:      Short bio

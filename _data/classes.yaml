@@ -190,8 +190,8 @@
     - url: 321451
       type: qis
 
-- title: Malta
-  module: "Exkursion: Europäische Metropolregionen"
+- title: "Malta als Infrastruktur: Markets and Movements in the Mediterranean"
+  module: "Exkursion: Internationale Metropolregionen"
   term: 2022
   tags: ["seminar", "ba", "exkursion"]
   co_teachers:
@@ -218,4 +218,42 @@
     - url: 14536605696
       type: olat
     - url: 332733
+      type: qis
+
+- title: "Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R"
+  module: "Projektseminar: Konzeption quantitativer Forschung"
+  term: 2022/23
+  tags: ["methods", "ba", "seminar"]
+  links:
+    - url: ds23
+      type: materials
+    - url: 339251
+      type: qis
+
+- title: "Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R"
+  module: "Projektseminar: Analyse quantitativer Daten"
+  term: 2023
+  tags: ["methods", "ba", "seminar"]
+  links:
+    - url: ds23
+      type: materials
+    - url: 350922
+      type: qis
+
+- title: Statistische Verfahren in der Geographie
+  term: 2023
+  module: Vorlesung
+  tags: ["methods", "ba", "lecture"]
+  links:
+    # - url: stat23
+    #   type: materials
+    - url: 350885
+      type: qis
+
+- title: "Malta: Fragmentierte Geographien des Mittelmeers"
+  term: 2023
+  module: Forschungswerkstatt, exkursionsorientiert
+  tags: ["methods", "ba", "lecture"]
+  links:
+    - url: 357099
       type: qis

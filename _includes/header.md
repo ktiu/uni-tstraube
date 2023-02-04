@@ -1,41 +1,4 @@
-<nav class="navbar init navbar-dark navbar-expand">
-  <div class="container">
-    <ul class="navbar-nav">
-      <li class="nav-item dropdown">
-        <a class="nav-link me-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="fa fa-bars"></i>
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-  {% for section in site.sections %}
-  {% capture uri %}
-  {% unless page.name == "index.md" %}{{ site.baseurl }}/{% endunless %}#{{section.slug}}
-  {% endcapture %}
-          <li>
-            <a class="dropdown-item" aria-current="page" href="{{ uri | strip }}">{% t section.short_title %}</a>
-          </li>
-  {% endfor %}
-        </ul>
-      </li>
-    </ul>
-    <div class="navbar-nav me-auto">
-      <a class="nav-link text-white{% if page.name == "index.md" %} nav-fade {% endif %}" href="{% unless page.name == "index.md" %}{{ site.baseurl }}/{% endunless %}#">{% if site.prefix %}{{ site.prefix }} {% endif %}{{ site.name }}</a>
-    </div>
-    <ul class="navbar-nav ms-auto mb-0">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-globe mx-2"></i>{{ site.lang }}</a>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-        {% if site.lang=="de" %}
-          <li><a class="dropdown-item" href="{{ site.baseurl_root }}/">English</a></li>
-          <li><span class="dropdown-item">Deutsch<i class="fas fa-check ms-2"></i></span></li>
-        {% else %}
-          <li><span class="dropdown-item">English<i class="fas fa-check ms-2"></i></span></li>
-          <li><a class="dropdown-item" href="{{ site.baseurl_root }}/de/">Deutsch</a></li>
-        {% endif %}
-        </ul>
-      </li>
-    </ul>
-  </div>
-</nav>
+{% include navbar.html %}
 {% if page.name == "index.md" %}
-{% include masthead.html %}
+  {% include masthead.html %}
 {% endif %}

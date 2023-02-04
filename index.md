@@ -14,4 +14,3 @@ masthead: true
 </section>
 
 {% endfor %}
-

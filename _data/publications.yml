@@ -1,11 +1,61 @@
+- type: article
+  date: 2023-03-01
+  title: Daten erfahren und situieren
+  subtitle: Datenspaziergänge als explorative Methode ethnografischer Forschung
+  journal: "Kulturanthropologie Notizen"
+  volume: 85
+  authors:
+    - first_name: "Katrin"
+      last_name: "Amelang"
+    - first_name: "Martina"
+      last_name: "Klausner"
+    - first_name: "Estrid"
+      last_name: "Sørensen"
+    - first_name: "Till"
+      last_name: "Straube"
+    - first_name: "Joscha"
+      last_name: "Friton"
+    - first_name: "Robert"
+      last_name: "Queckenberg"
+
+- type: chapter
+  title: Kritisch quantativ forschen
+  date: 2023-04-01
+  in_title: "Tranformative geographische Bildung"
+  in_subtitle: "Transformative geographische Bildung. Schlüsselprobleme, Theoriezugänge, Forschungsweisen, Vermittlungspraktiken"
+  in_place: "Heidelberg"
+  in_publisher: "Springer"
+  links:
+    - url: "https://www.lehmanns.de/shop/naturwissenschaften/61075085-9783662664810-transformative-geographische-bildung"
+      type: publisher 
+  # pages: [1, 1]
+  editors:
+    - first_name: "Eva"
+      last_name: "Nöthen"
+    - first_name: "Verena"
+      last_name: "Schreiber"
+  authors:
+    - first_name: "Till"
+      last_name: "Straube"
+
 - type: submitted
   title: Interfacing Global AI
-  date: 2022-01-01
+  date: 2023-01-01
   authors:
     - first_name: Till
       last_name: Straube
     - first_name: Seyram
       last_name: Avle
+
+- type: book
+  title: Verräumlichungen digitaler Infrastrukturen am Beispiel algorithmischer Sicherheitstechnologien
+  format: Dissertationsschrift
+  place: Frankfurt
+  publisher: Goethe-Universität
+  date: 2022-02-03
+  authors:
+    - first_name: Till
+      last_name: Straube
 
 - type: article
   title: "Review: Cloud Ethics"

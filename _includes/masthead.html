@@ -8,13 +8,14 @@
         <h1 class="text-center">{% if site.prefix %}{{ site.prefix }} {% endif %}{{ site.name }}</h1>
         <div class="position text-center text-md-start">{% t global.position %}</div>
         <div class="position text-center text-md-start">
-        {% t contact.email %}: <a href="mailto:{% t global.email %}">{% t global.email %}</a>
+          <i class="fas fa-envelope me-2"></i> <a href="mailto:{% t global.email %}">{% t global.email %}</a>
+        <!-- {% t contact.email %}: <a href="mailto:{% t global.email %}">{% t global.email %}</a> -->
         </div>
       </div>
     </div>
-    <div class="d-flex flex-column flex-md-row align-items-center align-items-md-end">
+    <div class="d-flex flex-column flex-md-row align-items-center align-items-md-start">
       <div class="brand text-center text-md-start" style="flex-basis: 25%">
-        <a href="https://uni-frankfurt.de"><img src="{{ "/assets/img/gu.png" | prepend: site.baseurl_root }}" class="brand mb-3 mb-md-2" alt="Goethe-Universität Frankfurt" /></a>
+        <a href="https://uni-frankfurt.de"><img src="{{ "/assets/img/gu.png" | prepend: site.baseurl_root }}" class="brand mb-3" alt="Goethe-Universität Frankfurt" /></a>
       </div>
       <div class="affiliation text-center text-md-start mt-2">
         {% tf affiliation.md %}

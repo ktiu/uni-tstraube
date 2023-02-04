@@ -15,16 +15,16 @@ layout: default
     <script type="text/javascript">
       const updateScroll = () => {
         if ($(this).scrollTop() > 250) {
-            $('nav.navbar').removeClass('init');
+            $('nav.navbar.index').addClass('fix-behind');
         } else {
-            $('nav.navbar').addClass('init');
+            $('nav.navbar.index').removeClass('fix-behind');
         }
       }
-    (function($) {
-      $(document).ready(function(){
-        $(window).scroll(updateScroll);
-        updateScroll();
-      });
-    })(jQuery);
+      (function($) {
+        $(document).ready(function(){
+          $(window).scroll(updateScroll);
+          updateScroll();
+        });
+      })(jQuery);
     </script>
   </body>

@@ -21,4 +21,5 @@ $gu_colors: (
 $primary: gu_color(goethe_blue);
 $secondary: gu_color(emo_red);
 $light: gu_color(light_gray);
-$dark: gu_color(dark_gray);
+$text-muted: mix(gu_color(sand_gray), gu_color(dark_gray), 30%);
+$dark: darken(gu_color(dark_gray), 20%);
