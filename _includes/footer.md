@@ -1,10 +1,9 @@
-<footer class="footer mt-auto py-3 bg-light border-top">
-  <div class="container-sm">
-  <div class="icons text-center">
+<footer class="footer mt-auto py-5 bg-light">
+  <div class="container">
+  <div class="icons">
   {% include icons.html %}
   </div>
-    <div class="text-muted text-center">
-      <small>&copy; {{ site.title }} {{ 'now' | date: "%Y" }}</small>
+    <div class="text-muted">
+      &copy; {{ site.name }} {{ 'now' | date: "%Y" }}
     </div>
-  </div>
 </footer>

@@ -1,0 +1,144 @@
+html, body {
+ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.section-header a {
+  color: $secondary;
+}
+
+.section-header h2 {
+  /* font-weight: 600; */
+  font-size: 2rem;
+  color: $dark;
+}
+
+section h3 {
+  font-size: 1rem;
+  padding-right: 1rem;
+}
+
+.fa-lg {
+  // vertical-align: middle;
+}
+
+body {
+  min-height: 100vh;
+}
+
+@include media-breakpoint-up(lg) {
+  .container {
+    max-width: map-get($container-max-widths, lg);
+  }
+}
+
+main {
+  margin-bottom:4rem;
+}
+
+section {
+  margin-top: -1rem;
+}
+
+.section-header {
+  border-bottom: 1px solid gu_color(sand_gray);
+  margin-bottom: 1.5rem;
+  padding-top: 5rem;
+}
+
+[data-bs-toggle="collapse"] {
+    &.collapsed .if-not-collapsed {
+         display: none;
+    }
+    &:not(.collapsed) .if-collapsed {
+         display: none;
+    }
+}
+
+footer .icons a {
+  font-size: 1.5rem;
+  color: $navbar-light-color;
+}
+
+footer .icons a:hover {
+  color: $navbar-light-hover-color;
+}
+
+//////////////
+//  Navbar  //
+//////////////
+
+.navbar {
+  background-color: $primary;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar.init {
+  position: absolute;
+  z-index: 15;
+  background-color: transparent;
+}
+
+.navbar.init .nav-fade {
+  display: none;
+}
+
+////////////////
+//  Masthead  //
+////////////////
+
+
+.masthead {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  position: relative;
+  z-index: 10;
+  background-color: $primary;
+  color: $white;
+}
+
+.masthead img.profile {
+  object-fit: cover;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  width: 150px;
+  @include media-breakpoint-up(md) {
+    width: 75%;
+  }
+}
+
+.masthead img.brand {
+  width: 150px;
+  @include media-breakpoint-up(md) {
+    width: 75%;
+  }
+}
+
+.masthead a {
+  color: $white;
+}
+
+.masthead .affiliation p {
+  margin: 0;
+}
+
+.masthead ul.nav-menu {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.masthead .nav-menu li {
+  display: inline;
+}
+
+.masthead h1 {
+  font-weight: 300;
+  font-size: 2.7rem;
+  margin: 0;
+}
+
+.masthead .position {
+  // font-weight: 600;
+}

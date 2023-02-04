@@ -1,4 +1,7 @@
-title: Till Straube
+prefix: Dr.
+name: Till Straube
+
+position: Wissenschaftlicher Mitarbeiter
 
 baseurl: "/~tstraube"
 doc_path: "docs/"

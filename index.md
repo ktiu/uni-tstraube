@@ -1,9 +1,7 @@
 ---
-layout: long_page
-hide_brand: true
+layout: page
+masthead: true
 ---
-
-{% include masthead.md %}
 
 {% for section in site.sections %}
 

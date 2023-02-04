@@ -1,3 +1,6 @@
+global:
+  position:       Wissenschaftlicher Mitarbeiter
+
 titles:
   about:          Wissen&shy;schaft&shy;liches Profil
   publications:   Ausgewählte Veröffent&shy;lichungen
@@ -41,8 +44,8 @@ contact:
   pronouns_header: Pronomen
   pronouns:       er, ihn, ihm, sein
   office_hours:   |
-    | Dienstags, 14--16h
-    | *Bitte Termin per E-Mail vereinbaren!*
+    Dienstags, 11--12h
+    Bitte Termin per E-Mail vereinbaren!
   postal_header:  Post&shy;adresse
   postal_address: |
     Institut für Humangeographie
@@ -50,7 +53,8 @@ contact:
     60629 Frankfurt am Main
   office_header: Besuchs&shy;adresse
   office_address: |
-    Campus Westend | PEG-Gebäude
+    Raum 2.G005
+    PEG-Gebäude | Campus Westend
     Goethe-Universität
     Theodor W.-Adorno-Platz 6
     60323 Frankfurt am Main

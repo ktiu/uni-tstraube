@@ -1,7 +1,8 @@
 global:
+  position:       Research Associate
   email:          straube@geo.uni-frankfurt.de
-  phone:          "+49 (0) 69 798 35153"
-  fax:            "+49 (0) 69 798 35161"
+  phone:          "+49-69-798-35153"
+  fax:            "+49-69-798-35161"
   twitter:        tillstr
   github:         ktiu
 
@@ -50,9 +51,9 @@ contact:
   phone:          Phone
   fax:            Fax
   hours_header:   Office hours
-  office_hours:   | 
-    | Tuesdays, 2--4pm 
-    | *Please make an appointment by e-mail!*
+  office_hours: |
+    Tuesdays, 11am--12pm
+    Please make an appointment by e-mail!
   pronouns_header: Pronouns
   pronouns:       he, him, his
   postal_header:  Postal address
@@ -63,7 +64,8 @@ contact:
     Germany
   office_header:  Office address
   office_address: |
-    Campus Westend | PEG Building
+    Office 2.G005
+    PEG Building | Campus Westend
     Goethe University
     Theodor W.-Adorno-Platz 6
     60323 Frankfurt am Main

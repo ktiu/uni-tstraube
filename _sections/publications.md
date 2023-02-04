@@ -86,14 +86,14 @@ short_title: short_titles.publications
 {% endif %}
 {% for link in publication.links %}
   {% if link.type == "pdf" %}
-    {% assign text = "<i class='fas fa-file-pdf mr-2'></i>PDF" %}
+    {% assign text = "<i class='fas fa-file-pdf me-2'></i>PDF" %}
     {% assign url = link.url | relative_url %}
   {% elsif link.type == "publisher" %}
     {% capture publisher %}{% t publications.publisher %}{% endcapture %}
-    {% assign text = "<i class='fas fa-link mr-2'></i>" | append: publisher %}
+    {% assign text = "<i class='fas fa-link me-2'></i>" | append: publisher %}
     {% assign url = link.url %}
   {% elsif link.type == "doi" %}
-    {% assign text = "<i class='ai ai-doi mr-2'></i>" | append: "DOI" %}
+    {% assign text = "<i class='ai ai-doi me-2'></i>" | append: "DOI" %}
     {% capture url %}
     https://doi.org/{{ link.url }}
     {% endcapture %}
@@ -112,8 +112,8 @@ short_title: short_titles.publications
 
 {% if i > 5 %}
   </div>
-  <button class="btn btn-primary form-control collapsed" type="button" data-toggle="collapse" data-target=".publications-expand">
-    <span class="if-collapsed">{% t publications.show_all %}<i class="fas fa-caret-down ml-2"></i></span>
-    <span class="if-not-collapsed">{% t publications.show_less %}<i class="fas fa-caret-up ml-2"></i></span>
+  <button class="btn btn-primary form-control collapsed" type="button" data-bs-toggle="collapse" data-bs-target=".publications-expand">
+    <span class="if-collapsed">{% t publications.show_all %}<i class="fas fa-caret-down ms-2"></i></span>
+    <span class="if-not-collapsed">{% t publications.show_less %}<i class="fas fa-caret-up ms-2"></i></span>
   </button>
 {% endif %}

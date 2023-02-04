@@ -1,29 +1,7 @@
 .nav-fade {
   display: none;
 }
-
-.navbar-nav {
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.navbar-nav .dropdown-menu {
-    position: absolute;
-    right: 0;
-    left: auto;
-}
-
-.navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-}
-
-@include media-breakpoint-up(md) {
-  .navbar-title {
-    flex-basis: auto;
-  }
-}
-
+ 
 .navbar h1 {
   margin-right: auto;
 }
