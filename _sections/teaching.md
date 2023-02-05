@@ -67,12 +67,12 @@ short_title: short_titles.teaching
 {% endfor %}
 </p>
 {% endcapture %}
-{% include section_row.html class=div_class header=header content=content %}
+{% include section_row.html header=header content=content %}
 {% endfor %}
 
 {% if i > 5 %}
   </div>
-  <button class="btn btn-secondary collapsed show-more" type="button" data-bs-toggle="collapse" data-bs-target=".teaching-expand">
+  <button class="btn btn-success text-light collapsed show-more" type="button" data-bs-toggle="collapse" data-bs-target=".teaching-expand">
     <span class="if-collapsed">{% t teaching.show_all %}<i class="fas fa-caret-down ms-2"></i></span>
     <span class="if-not-collapsed">{% t teaching.show_less %}<i class="fas fa-caret-up ms-2"></i></span>
   </button>

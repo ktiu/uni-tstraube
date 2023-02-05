@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="/~tstraube/assets/css/academicons.min.css">
     <title>Dr. Till Straube</title>
   </head>
-    <body data-spy="scroll" data-target="#menu" class="d-flex flex-column h-100">
-    <nav class="navbar index navbar-dark navbar-expand">
-  <div class="container">
-    <ul class="navbar-nav">
+  <body data-spy="scroll" data-target="#menu" class="d-flex flex-column h-100">
+  <nav class="navbar index navbar-dark navbar-expand">
+  <div class="container d-flex">
+    <ul class="navbar-nav menu">
       <li class="nav-item dropdown">
-        <a class="nav-link me-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="fa fa-bars"></i>
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa fa-bars me-1"></i>
+        <span class="init">Menu</span>
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
   
@@ -41,10 +42,10 @@
         </ul>
       </li>
     </ul>
-    <div class="navbar-nav me-auto">
-      <a class="nav-link text-white nav-fade " href="#">Dr. Till Straube</a>
+    <div class="navbar-nav name">
+      <a class="nav-link nav-fade text-white" href="#"><strong>Dr. Till Straube</strong></a>
     </div>
-    <ul class="navbar-nav ms-auto mb-0">
+    <ul class="navbar-nav language justify-content-end">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-globe mx-2"></i>en</a>
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -62,20 +63,19 @@
   <div class="masthead container-fluid">
   <div class="container">
     <div class="d-flex flex-column flex-md-row align-items-center mb-md-5">
-      <div class="profile-picture text-center text-md-start" style="flex-basis: 25%">
-        <img class="profile" src="/~tstraube/assets/img/till_straube.jpg" alt="Profilbild "/>
+      <div class="profile-picture text-center text-md-start">
+        <img class="profile" src="/~tstraube/assets/img/profile.jpg" alt="Profilbild "/>
       </div>
       <div class="name-position my-5">
         <h1 class="text-center">Dr. Till Straube</h1>
         <div class="position text-center text-md-start">Research Associate</div>
         <div class="position text-center text-md-start">
-          <i class="fas fa-envelope me-2"></i> <a href="mailto:straube@geo.uni-frankfurt.de">straube@geo.uni-frankfurt.de</a>
-        <!-- E-mail: <a href="mailto:straube@geo.uni-frankfurt.de">straube@geo.uni-frankfurt.de</a> -->
+          <i class="fas fa-envelope me-1"></i> <a href="mailto:straube@geo.uni-frankfurt.de">straube@geo.uni-frankfurt.de</a>
         </div>
       </div>
     </div>
     <div class="d-flex flex-column flex-md-row align-items-center align-items-md-start">
-      <div class="brand text-center text-md-start" style="flex-basis: 25%">
+      <div class="brand text-center text-md-start">
         <a href="https://uni-frankfurt.de"><img src="/~tstraube/assets/img/gu.png" class="brand mb-3" alt="Goethe-Universität Frankfurt" /></a>
       </div>
       <div class="affiliation text-center text-md-start mt-2">
@@ -90,43 +90,43 @@
 
 
 
-    <div class="container">
-      <main>
-      
+  <div class="container">
+    <main>
+    
 <section id="about">
-  <div class="section-header d-flex flex-row align-items-baseline justify-content-between">
-  <h2>About me</h2>
-  <div><a href="#"><i class="fas fa-angle-up"></i></a></div>
+  <div class="section-header d-flex flex-row align-items-baseline justify-content-between justify-content-md-start">
+  <div class="left-column order-2 order-md-1"><a href="#"><i class="fas fa-lg fa-angle-up"></i></a></div>
+  <h2 class="order-1 order-md-2">About me</h2>
   </div>
   
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
 Short bio
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>I am a Research Associate at the Department of Human Geography at Goethe University Frankfurt in the field of Economic Geography.</p>
 
-<p>In my PhD research project, I engaged with algorithms and security technologies.
+<p>In my doctoral research project, I engaged with algorithms and security technologies.
 Currently, I am chiefly interested in modeling, prediction and technological intervention practices concerning climate, weather and air quality.</p>
 
 <p>With years of experience as a software engineer and project manager in the technology sector, I design theoretically-informed, hands-on learning experiences that introduce students to Geography’s quantitative methods in meaningful ways. My teaching underlines the importance of data literacy and critical approaches to digital technologies.</p>
 
-<p>Within the organizing team of the <a href="https://dkg2023.de">Deutscher Kongresses für Geographie</a> I am responsible for all technical aspects and the implementation of graphic design.</p>
+<p>Within the organizing team of the upcoming <a href="https://dkg2023.de">Deutscher Kongresses für Geographie</a> I am responsible for all technical aspects and the implementation of graphic design.</p>
 
 
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
 Research interests
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <ul>
   <li>Critical Data Science</li>
@@ -141,14 +141,17 @@ Research interests
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
 Education
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
+<p><strong>Dr. phil. in Geography</strong><br />
+Goethe University Frankfurt (2022)</p>
+
 <p><strong>MA in Human Geography</strong><br />
 Goethe University Frankfurt (2014)</p>
 
@@ -166,18 +169,18 @@ Lufthansa German Airlines (2003)</p>
 </section>
 
 <section id="publications">
-  <div class="section-header d-flex flex-row align-items-baseline justify-content-between">
-  <h2>Latest Publications</h2>
-  <div><a href="#"><i class="fas fa-angle-up"></i></a></div>
+  <div class="section-header d-flex flex-row align-items-baseline justify-content-between justify-content-md-start">
+  <div class="left-column order-2 order-md-1"><a href="#"><i class="fas fa-lg fa-angle-up"></i></a></div>
+  <h2 class="order-1 order-md-2">Latest Publications</h2>
   </div>
   
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
    2023 
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Straube, Till. 2023.<strong><br />
@@ -192,7 +195,7 @@ and Verena Schreiber
 
 (eds).
   <em> Tranformative geographische Bildung.
-  Transformative geographische Bildung. Schlüsselprobleme, Theoriezugänge, Forschungsweisen, Vermittlungspraktiken</em>.
+  Schlüsselprobleme, Theoriezugänge, Forschungsweisen, Vermittlungspraktiken</em>.
   Heidelberg: 
   Springer.
 
@@ -207,13 +210,13 @@ and Verena Schreiber
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Amelang, Katrin,
@@ -239,13 +242,13 @@ Datenspaziergänge als explorative Methode ethnografischer Forschung.</strong><b
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Straube, Till
@@ -259,13 +262,13 @@ Interfacing Global AI.</strong><br />
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
    2022 
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Straube, Till. 2022.<strong><br />
@@ -285,13 +288,13 @@ Verräumlichungen digitaler Infrastrukturen am Beispiel algorithmischer Sicherhe
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
    2021 
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Straube, Till. 2021.<strong><br />
@@ -354,14 +357,13 @@ and Till Straube
 
 
 
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Bork-Hüffer, Tabea,
@@ -431,15 +433,13 @@ and Till Straube
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Dwyer, Andrew C.,
@@ -507,15 +507,13 @@ Algorithms and the Attributes of Ourselves and Others.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
    2019 
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Straube, Till. 2019.<strong><br />
@@ -582,15 +580,13 @@ and Polly Pallister-Wilkins
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
    2018 
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Straube, Till
@@ -658,15 +654,13 @@ and Anke Strüver
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Kemper, Jan
@@ -737,15 +731,13 @@ and Bernd Belina
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Straube, Till. 2018.<strong><br />
@@ -810,15 +802,13 @@ and Gavin McArdle
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Hagen, Erica,
@@ -885,15 +875,13 @@ Lessons from Kibera.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
    2016 
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 Straube, Till. 2016.<strong><br />
@@ -925,10 +913,9 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
   </div>
-<p><button class="btn btn-secondary collapsed show-more" type="button" data-bs-toggle="collapse" data-bs-target=".publications-expand">
-    <span class="if-collapsed">Show all publications<i class="fas fa-caret-down ms-2"></i></span>
+<p><button class="btn btn-success text-light collapsed show-more" type="button" data-bs-toggle="collapse" data-bs-target=".publications-expand">
+    <span class="if-collapsed">Show older publications<i class="fas fa-caret-down ms-2"></i></span>
     <span class="if-not-collapsed">Show fewer publications<i class="fas fa-caret-up ms-2"></i></span>
   </button></p>
 
@@ -936,13 +923,13 @@ Mapping Digital Infrastructures.</strong><br />
 </section>
 
 <section id="teaching">
-  <div class="section-header d-flex flex-row align-items-baseline justify-content-between">
-  <h2>Classes and lectures</h2>
-  <div><a href="#"><i class="fas fa-angle-up"></i></a></div>
+  <div class="section-header d-flex flex-row align-items-baseline justify-content-between justify-content-md-start">
+  <div class="left-column order-2 order-md-1"><a href="#"><i class="fas fa-lg fa-angle-up"></i></a></div>
+  <h2 class="order-1 order-md-2">Classes and lectures</h2>
   </div>
   
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -953,7 +940,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Malta: Fragmentierte Geographien des Mittelmeers</strong><br />
@@ -968,13 +955,13 @@ Mapping Digital Infrastructures.</strong><br />
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Statistische Verfahren in der Geographie</strong><br />
@@ -989,13 +976,13 @@ Mapping Digital Infrastructures.</strong><br />
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R</strong><br />
@@ -1013,8 +1000,8 @@ Mapping Digital Infrastructures.</strong><br />
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1025,7 +1012,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R</strong><br />
@@ -1043,8 +1030,8 @@ Mapping Digital Infrastructures.</strong><br />
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1055,7 +1042,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Statistische Verfahren in der Geographie</strong><br />
@@ -1082,14 +1069,13 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Erstellung und Präsentation einer wissenschaftlichen Arbeit</strong><br />
@@ -1111,15 +1097,13 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Malta als Infrastruktur: Markets and Movements in the Mediterranean</strong><br />
@@ -1149,10 +1133,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1163,7 +1145,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Telling Data Stories</strong><br />
@@ -1201,10 +1183,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1215,7 +1195,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Statistische Verfahren in der Geographie</strong><br />
@@ -1240,15 +1220,13 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R</strong><br />
@@ -1273,10 +1251,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1287,7 +1263,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R</strong><br />
@@ -1312,10 +1288,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1326,7 +1300,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Malta: Politics of Infrastructure</strong><br />
@@ -1351,15 +1325,13 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Statistische Verfahren in der Geographie</strong><br />
@@ -1384,10 +1356,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1398,7 +1368,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R</strong><br />
@@ -1417,15 +1387,13 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Statistische Verfahren in der Geographie</strong><br />
@@ -1447,10 +1415,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1461,7 +1427,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Data Science für die Humangeographie: Ein pragmatischer Einstieg mit R</strong><br />
@@ -1480,10 +1446,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1494,7 +1458,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Big Data? Webbasierte Datenerhebung, exploratives Data Mining und Critical Statistics für die Humangeographie</strong><br />
@@ -1516,15 +1480,13 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Statistische Verfahren in der Geographie</strong><br />
@@ -1546,10 +1508,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1560,7 +1520,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Big Data? Webbasierte Datenerhebung, exploratives Data Mining und Critical Statistics für die Humangeographie</strong><br />
@@ -1582,10 +1542,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1596,7 +1554,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Big Data? Webbasierte Datenerhebung, exploratives Data Mining und Critical Statistics für die Humangeographie</strong><br />
@@ -1623,10 +1581,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1637,7 +1593,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Big Data? Webbasierte Datenerhebung, exploratives Data Mining und Critical Statistics für die Humangeographie</strong><br />
@@ -1667,15 +1623,13 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Bangkok: Markets, Margins, Matter</strong><br />
@@ -1705,10 +1659,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1719,7 +1671,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Postcolonial Geographies: Technologie, Wissen, Raum</strong><br />
@@ -1754,15 +1706,13 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Malta: Fragmented Geographies of the Mediterranean</strong><br />
@@ -1789,10 +1739,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1803,7 +1751,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Smart Cities und digitale Geographien</strong><br />
@@ -1825,10 +1773,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1839,7 +1785,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Malta: Grenzzonen im Mittelmeer</strong><br />
@@ -1869,10 +1815,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1883,7 +1827,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Global Technologies</strong><br />
@@ -1902,15 +1846,13 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Global California: LA und Bajalta</strong><br />
@@ -1940,10 +1882,8 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
-
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
   
     
@@ -1954,7 +1894,7 @@ Mapping Digital Infrastructures.</strong><br />
   
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>
 <strong>Urban Struggles</strong><br />
@@ -1969,10 +1909,9 @@ Mapping Digital Infrastructures.</strong><br />
 
 
 
-
   </div>
-<p><button class="btn btn-secondary collapsed show-more" type="button" data-bs-toggle="collapse" data-bs-target=".teaching-expand">
-    <span class="if-collapsed">Show all classes<i class="fas fa-caret-down ms-2"></i></span>
+<p><button class="btn btn-success text-light collapsed show-more" type="button" data-bs-toggle="collapse" data-bs-target=".teaching-expand">
+    <span class="if-collapsed">Show older classes<i class="fas fa-caret-down ms-2"></i></span>
     <span class="if-not-collapsed">Show fewer classes<i class="fas fa-caret-up ms-2"></i></span>
   </button></p>
 
@@ -1980,42 +1919,42 @@ Mapping Digital Infrastructures.</strong><br />
 </section>
 
 <section id="contact">
-  <div class="section-header d-flex flex-row align-items-baseline justify-content-between">
-  <h2>Contact information</h2>
-  <div><a href="#"><i class="fas fa-angle-up"></i></a></div>
+  <div class="section-header d-flex flex-row align-items-baseline justify-content-between justify-content-md-start">
+  <div class="left-column order-2 order-md-1"><a href="#"><i class="fas fa-lg fa-angle-up"></i></a></div>
+  <h2 class="order-1 order-md-2">Contact information</h2>
   </div>
   
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
-<i class="fas fa-at me-2"></i>E-mail
+E-mail
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p><a href="mailto:straube@geo.uni-frankfurt.de">straube@geo.uni-frankfurt.de</a></p>
 
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
-<i class="fas fa-comment me-2"></i>Pronouns
+Pronouns
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     <p>he, him, his</p>
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
-<i class="fas fa-door-open me-2"></i>Office hours
+Office hours
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     
 <p>Tuesdays, 11am–12pm<br />
 Please make an appointment by e-mail!</p>
@@ -2023,35 +1962,35 @@ Please make an appointment by e-mail!</p>
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
-<i class="fas fa-phone me-2"></i>Phone
+Phone
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     <p>+49-69-798-35153</p>
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
-<i class="fas fa-fax me-2"></i>Fax
+Fax
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     <p>+49-69-798-35161</p>
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
-<i class="fas fa-envelope-open-text me-2"></i>Postal address
+Postal address
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     <p>Institut für Humangeographie<br />
 Goethe-Universität<br />
 60629 Frankfurt am Main<br />
@@ -2060,13 +1999,13 @@ Germany<br />
   </div>
 </div>
 
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start ">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start ">
+  <div class="text-muted left-column">
     <h3>
-<i class="fas fa-map-marker-alt me-2"></i>Office address
+Office address
 </h3>
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     <p>Office 2.G005<br />
 PEG Building | Campus Westend<br />
 Goethe University<br />
@@ -2081,9 +2020,9 @@ Germany<br />
 </section>
 
 
-      </main>
-    </div>
-    <footer class="footer mt-auto py-5 bg-light">
+    </main>
+  </div>
+  <footer class="footer mt-auto py-5 bg-light">
   <div class="container text-center text-md-start">
   <div class="icons">
     <a href="https://scholar.google.de/citations?user=KeAyNsgAAAAJ"><i class="ai ai-google-scholar-square me-1 ms-1 ms-md-0"></i></a>
@@ -2096,23 +2035,23 @@ Germany<br />
   </div>
 </footer>
 
-    <script src="/~tstraube/assets/js/bootstrap.min.js"></script>
-    <script src="/~tstraube/assets/js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript">
-      const updateScroll = () => {
-        if ($(this).scrollTop() > 250) {
-            $('nav.navbar.index').addClass('fix-behind');
-        } else {
-            $('nav.navbar.index').removeClass('fix-behind');
-        }
+  <script src="/~tstraube/assets/js/bootstrap.min.js"></script>
+  <script src="/~tstraube/assets/js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript">
+    const updateScroll = () => {
+      if ($(this).scrollTop() > 250) {
+          $('nav.navbar.index').addClass('fix-behind');
+      } else {
+          $('nav.navbar.index').removeClass('fix-behind');
       }
-      (function($) {
-        $(document).ready(function(){
-          $(window).scroll(updateScroll);
-          updateScroll();
-        });
-      })(jQuery);
-    </script>
-  </body>
+    }
+    (function($) {
+      $(document).ready(function(){
+        $(window).scroll(updateScroll);
+        updateScroll();
+      });
+    })(jQuery);
+  </script>
+</body>
 
 </html>

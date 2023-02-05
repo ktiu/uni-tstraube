@@ -1,9 +1,10 @@
 <nav class="navbar {% if page.name == "index.md" %}index {% endif %}navbar-dark navbar-expand">
-  <div class="container">
-    <ul class="navbar-nav">
+  <div class="container d-flex">
+    <ul class="navbar-nav menu">
       <li class="nav-item dropdown">
-        <a class="nav-link me-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="fa fa-bars"></i>
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa fa-bars me-1"></i>
+        <span class="init">{% t header.menu %}</span>
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
   {% for section in site.sections %}
@@ -17,10 +18,10 @@
         </ul>
       </li>
     </ul>
-    <div class="navbar-nav me-auto">
-      <a class="nav-link text-white{% if page.name == "index.md" %} nav-fade {% endif %}" href="{% unless page.name == "index.md" %}{{ site.baseurl }}/{% endunless %}#">{% if site.prefix %}{{ site.prefix }} {% endif %}{{ site.name }}</a>
+    <div class="navbar-nav name">
+      <a class="nav-link nav-fade text-white" href="{% unless page.name == "index.md" %}{{ site.baseurl }}/{% endunless %}#"><strong>{% if site.prefix %}{{ site.prefix }} {% endif %}{{ site.name }}</strong></a>
     </div>
-    <ul class="navbar-nav ms-auto mb-0">
+    <ul class="navbar-nav language justify-content-end">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-globe mx-2"></i>{{ site.lang }}</a>
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">

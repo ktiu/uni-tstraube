@@ -1,17 +1,21 @@
-prefix: Dr.
-name: Till Straube
+name:     Till Straube
+prefix:   Dr.
+email:    straube@geo.uni-frankfurt.de
+phone:    +49-69-798-35153
+fax:      +49-69-798-35161
 
-position: Wissenschaftlicher Mitarbeiter
+twitter:  tillstr
+github:   ktiu
+scholar:  KeAyNsgAAAAJ
 
-baseurl: "/~tstraube"
-doc_path: "docs/"
-url: "https://uni-frankfurt.de"
-twitter: tillstr
-scholar: KeAyNsgAAAAJ
-github: ktiu
+baseurl:  /~tstraube
+keep_files: ["c", "box"]
+
+doc_path: docs/
+url:      "https://uni-frankfurt.de"
 
 sass:
-  style: compact
+  style:  compact
 
 plugins:
   - jekyll-feed
@@ -25,22 +29,16 @@ collections:
        - teaching.md
        - contact.md
 
-# i18n
-languages: ["en", "de"]
-exclude_from_localizations: ["docs", "assets", "css", "js"]
-  
-keep_files: ["c", "box"]
+languages: 
+  - en
+  - de
+
+exclude_from_localizations: 
+  - docs
+  - assets
+  - css
+  - js
 
 exclude:
   - README.md
   - LICENSE
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

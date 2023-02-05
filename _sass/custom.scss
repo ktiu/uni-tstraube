@@ -5,6 +5,7 @@ html, body {
 
 body {
   min-height: 100vh;
+  hyphens: auto;
 }
 
 @include media-breakpoint-up(lg) {
@@ -22,7 +23,7 @@ section {
 }
 
 .section-header {
-  border-bottom: 1px solid $text-muted;
+  border-bottom: thin dotted $text-muted;
   margin-bottom: 1.5rem;
   padding-top: 5rem;
 }
@@ -38,8 +39,14 @@ section {
 
 section h3 {
   font-size: 1rem;
-  padding-right: 1rem;
+  margin-top: 2.3rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  @include media-breakpoint-up(md) {
+    margin: 0;
+  }
 }
+
 
 [data-bs-toggle="collapse"] {
     &.collapsed .if-not-collapsed {
@@ -56,13 +63,22 @@ section ul {
   margin-left: 0;
 }
 
+section .left-column { 
+  @include media-breakpoint-up(md) {
+    flex-basis: $left_column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding-right: 1rem;
+  }
+}
+
 .btn, .btn-sm, .btn-lg {
   border-radius: 0;
 }
 
 section button.show-more {
   @include media-breakpoint-up(md) {
-    margin-left: 25%;
+    margin-left: $left_column;
   }
 }
 
@@ -84,11 +100,37 @@ footer .icons a:hover {
   padding: 0.7rem 0;
 }
 
-.navbar.index.fix-behind {
-  position: fixed;
-  z-index: 8;
-  background-color: $primary;
+.navbar .language .nav-link {
+  padding-right: 0;
 }
+
+.navbar .menu .nav-link {
+  padding-left: 0;
+}
+
+.navbar .menu {
+  flex-basis: $left_column;
+}
+
+.navbar .language {
+  flex-basis: $left_column;
+}
+
+.navbar .name {
+  @include media-breakpoint-up(md) { 
+    flex-grow: 1;
+  }
+}
+
+.navbar .name a.nav-link {
+  color: $white;
+  // text-decoration: underline;
+  // text-decoration-color: $navbar-dark-color;
+  @include media-breakpoint-up(md) { 
+    padding-left: 0;
+  }
+}
+
 
 .navbar.index {
   position: absolute;
@@ -99,12 +141,34 @@ footer .icons a:hover {
   left: 0;
 }
 
+.navbar.index.fix-behind {
+  position: fixed;
+  z-index: 8;
+  background-color: $primary;
+}
+
+.navbar .init {
+  display: none;
+}
+
+.navbar.index .init {
+  display: initial;
+}
+
+.navbar.index.fix-behind .init {
+  display: none;
+}
+
 .navbar.index .nav-fade {
   display: none;
 }
 
 .navbar.index.fix-behind .nav-fade {
   display: initial;
+}
+
+.dropdown-menu {
+  border-radius: none;
 }
 
 ////////////////
@@ -173,4 +237,12 @@ footer .icons a:hover {
 
 .masthead .position {
   // font-weight: 600;
+}
+
+.masthead div.profile-picture,
+.masthead div.brand { 
+  @include media-breakpoint-up(md) {
+    flex-basis: 25%;
+    margin-left: $left_column;
+  }
 }

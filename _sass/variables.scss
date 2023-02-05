@@ -14,6 +14,8 @@ $gu_colors: (
   light_blue: #48a9da, 
 );
 
+$left_column: 20%;
+
 @function gu_color($color) {
     @return map-get($gu_colors, $color);
 }
@@ -23,3 +25,5 @@ $secondary: gu_color(emo_red);
 $light: gu_color(light_gray);
 $text-muted: mix(gu_color(sand_gray), gu_color(dark_gray), 30%);
 $dark: darken(gu_color(dark_gray), 20%);
+$success: gu_color(green);
+$info: gu_color(light_blue);

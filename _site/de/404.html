@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="/~tstraube/assets/css/academicons.min.css">
     <title>Dr. Till Straube</title>
   </head>
-    <body data-spy="scroll" data-target="#menu" class="d-flex flex-column h-100">
-    <nav class="navbar navbar-dark navbar-expand">
-  <div class="container">
-    <ul class="navbar-nav">
+  <body data-spy="scroll" data-target="#menu" class="d-flex flex-column h-100">
+  <nav class="navbar navbar-dark navbar-expand">
+  <div class="container d-flex">
+    <ul class="navbar-nav menu">
       <li class="nav-item dropdown">
-        <a class="nav-link me-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="fa fa-bars"></i>
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa fa-bars me-1"></i>
+        <span class="init">Menü</span>
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
   
@@ -41,10 +42,10 @@
         </ul>
       </li>
     </ul>
-    <div class="navbar-nav me-auto">
-      <a class="nav-link text-white" href="/~tstraube/de/#">Dr. Till Straube</a>
+    <div class="navbar-nav name">
+      <a class="nav-link nav-fade text-white" href="/~tstraube/de/#"><strong>Dr. Till Straube</strong></a>
     </div>
-    <ul class="navbar-nav ms-auto mb-0">
+    <ul class="navbar-nav language justify-content-end">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-globe mx-2"></i>de</a>
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -60,9 +61,9 @@
 
 
 
-    <div class="container">
-      <main>
-      <style type="text/css" media="screen">
+  <div class="container">
+    <main>
+    <style type="text/css" media="screen">
   h1 {
     margin: 100px 0 30px 0;
     font-size: 4em;
@@ -79,9 +80,9 @@
 
 <p>The requested page could not be found.</p>
 
-      </main>
-    </div>
-    <footer class="footer mt-auto py-5 bg-light">
+    </main>
+  </div>
+  <footer class="footer mt-auto py-5 bg-light">
   <div class="container text-center text-md-start">
   <div class="icons">
     <a href="https://scholar.google.de/citations?user=KeAyNsgAAAAJ"><i class="ai ai-google-scholar-square me-1 ms-1 ms-md-0"></i></a>
@@ -94,23 +95,23 @@
   </div>
 </footer>
 
-    <script src="/~tstraube/assets/js/bootstrap.min.js"></script>
-    <script src="/~tstraube/assets/js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript">
-      const updateScroll = () => {
-        if ($(this).scrollTop() > 250) {
-            $('nav.navbar.index').addClass('fix-behind');
-        } else {
-            $('nav.navbar.index').removeClass('fix-behind');
-        }
+  <script src="/~tstraube/assets/js/bootstrap.min.js"></script>
+  <script src="/~tstraube/assets/js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript">
+    const updateScroll = () => {
+      if ($(this).scrollTop() > 250) {
+          $('nav.navbar.index').addClass('fix-behind');
+      } else {
+          $('nav.navbar.index').removeClass('fix-behind');
       }
-      (function($) {
-        $(document).ready(function(){
-          $(window).scroll(updateScroll);
-          updateScroll();
-        });
-      })(jQuery);
-    </script>
-  </body>
+    }
+    (function($) {
+      $(document).ready(function(){
+        $(window).scroll(updateScroll);
+        updateScroll();
+      });
+    })(jQuery);
+  </script>
+</body>
 
 </html>

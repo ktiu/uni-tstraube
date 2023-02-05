@@ -1,14 +1,8 @@
-{% if include.class %}
-<div class="{{ include.class }}">
-{% endif %}
-<div class="my-2 d-sm-flex align-items-baseline justify-content-start {{ include.class }}">
-  <div class="text-muted" style="flex-basis: 25%">
+<div class="section-row my-2 d-md-flex align-items-baseline justify-content-start {{ include.class }}">
+  <div class="text-muted left-column">
     {% if include.header %}<h3>{{ include.header }}</h3>{% endif %}
   </div>
-  <div style="flex-basis: 75%">
+  <div class="right-column">
     {{ include.content }}
   </div>
 </div>
-{% if include.class %}
-</div>
-{% endif %}

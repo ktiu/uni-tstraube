@@ -1,15 +1,6 @@
-global:
+header:
+  menu:           Menu
   position:       Research Associate
-  email:          straube@geo.uni-frankfurt.de
-  phone:          "+49-69-798-35153"
-  fax:            "+49-69-798-35161"
-  twitter:        tillstr
-  github:         ktiu
-
-lang:
-  current:        English
-  other:          Deutsch
-  switch:         /de
 
 titles:
   about:          About me
@@ -31,7 +22,7 @@ about:
 teaching:
   summer:         Summer
   winter:         Winter
-  show_all:       Show all classes
+  show_all:       Show older classes
   show_less:      Show fewer classes
   materials:      Course materials
   qis:            Course catalog
@@ -43,7 +34,7 @@ publications:
   in:             In
   publisher:      Publisher
   submitted:      Submitted
-  show_all:       Show all publications
+  show_all:       Show older publications
   show_less:      Show fewer publications
 
 contact:

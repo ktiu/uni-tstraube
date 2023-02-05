@@ -2,29 +2,29 @@
 layout: default
 ---
 
-  <body data-spy="scroll" data-target="#menu" class="d-flex flex-column h-100">
-    {% include header.md %}
-    <div class="container">
-      <main>
-      {{ content }}
-      </main>
-    </div>
-    {% include footer.md %}
-    <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl_root }}"></script>
-    <script src="{{ "/assets/js/jquery-3.6.0.min.js" | prepend: site.baseurl_root }}"></script>
-    <script type="text/javascript">
-      const updateScroll = () => {
-        if ($(this).scrollTop() > 250) {
-            $('nav.navbar.index').addClass('fix-behind');
-        } else {
-            $('nav.navbar.index').removeClass('fix-behind');
-        }
+<body data-spy="scroll" data-target="#menu" class="d-flex flex-column h-100">
+  {% include header.md %}
+  <div class="container">
+    <main>
+    {{ content }}
+    </main>
+  </div>
+  {% include footer.md %}
+  <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl_root }}"></script>
+  <script src="{{ "/assets/js/jquery-3.6.0.min.js" | prepend: site.baseurl_root }}"></script>
+  <script type="text/javascript">
+    const updateScroll = () => {
+      if ($(this).scrollTop() > 250) {
+          $('nav.navbar.index').addClass('fix-behind');
+      } else {
+          $('nav.navbar.index').removeClass('fix-behind');
       }
-      (function($) {
-        $(document).ready(function(){
-          $(window).scroll(updateScroll);
-          updateScroll();
-        });
-      })(jQuery);
-    </script>
-  </body>
+    }
+    (function($) {
+      $(document).ready(function(){
+        $(window).scroll(updateScroll);
+        updateScroll();
+      });
+    })(jQuery);
+  </script>
+</body>

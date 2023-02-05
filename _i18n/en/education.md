@@ -1,3 +1,6 @@
+**Dr. phil. in Geography**  
+Goethe University Frankfurt (2022)
+
 **MA in Human Geography**  
 Goethe University Frankfurt (2014)
 

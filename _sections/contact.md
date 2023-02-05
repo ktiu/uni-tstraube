@@ -4,21 +4,21 @@ short_title: short_titles.contact
 ---
 
 {% capture header %}
-<i class="fas fa-at me-2"></i>{% t contact.email %}
+{% t contact.email %}
 {% endcapture %}
 {% capture content %}
-<p><a href="mailto:{% t global.email %}">{% t global.email %}</a></p>
+<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 {% endcapture %}
 {% include section_row.html header=header content=content %}
 
 {% capture header %}
-<i class="fas fa-comment me-2"></i>{% t contact.pronouns_header %}
+{% t contact.pronouns_header %}
 {% endcapture %}
 {% capture content %}<p>{% t contact.pronouns %}</p>{% endcapture %}
 {% include section_row.html header=header content=content %}
 
 {% capture header %}
-<i class="fas fa-door-open me-2"></i>{% t contact.hours_header %}
+{% t contact.hours_header %}
 {% endcapture %}
 {% capture hours %}
 {% t contact.office_hours %}
@@ -30,19 +30,19 @@ short_title: short_titles.contact
 
 
 {% capture header %}
-<i class="fas fa-phone me-2"></i>{% t contact.phone %}
+{% t contact.phone %}
 {% endcapture %}
-{% capture content %}<p>{% t global.phone %}</p>{% endcapture %}
+{% capture content %}<p>{{ site.phone }}</p>{% endcapture %}
 {% include section_row.html header=header content=content %}
 
 {% capture header %}
-<i class="fas fa-fax me-2"></i>{% t contact.fax %}
+{% t contact.fax %}
 {% endcapture %}
-{% capture content %}<p>{% t global.fax %}</p>{% endcapture %}
+{% capture content %}<p>{{ site.fax }}</p>{% endcapture %}
 {% include section_row.html header=header content=content %}
 
 {% capture header %}
-<i class="fas fa-envelope-open-text me-2"></i>{% t contact.postal_header %}
+{% t contact.postal_header %}
 {% endcapture %}
 {% capture postal %}{% t contact.postal_address %}{% endcapture %}
 {% capture content %}<p>{{ postal | newline_to_br }}</p>{% endcapture %}
@@ -50,7 +50,7 @@ short_title: short_titles.contact
 {% include section_row.html header=header content=content %}
 
 {% capture header %}
-<i class="fas fa-map-marker-alt me-2"></i>{% t contact.office_header %}
+{% t contact.office_header %}
 {% endcapture %}
 {% capture office %}{% t contact.office_address %}{% endcapture %}
 {% capture content %}<p>{{ office | newline_to_br }}</p>{% endcapture %}

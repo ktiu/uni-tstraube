@@ -116,7 +116,7 @@ short_title: short_titles.publications
 
 {% if i > 5 %}
   </div>
-  <button class="btn btn-secondary collapsed show-more" type="button" data-bs-toggle="collapse" data-bs-target=".publications-expand">
+  <button class="btn btn-success text-light collapsed show-more" type="button" data-bs-toggle="collapse" data-bs-target=".publications-expand">
     <span class="if-collapsed">{% t publications.show_all %}<i class="fas fa-caret-down ms-2"></i></span>
     <span class="if-not-collapsed">{% t publications.show_less %}<i class="fas fa-caret-up ms-2"></i></span>
   </button>

@@ -1,4 +1,5 @@
-global:
+header:
+  menu:           Menü
   position:       Wissenschaftlicher Mitarbeiter
 
 titles:
@@ -21,7 +22,7 @@ about:
 teaching:
   summer:         Sommer
   winter:         Winter
-  show_all:       Alle Veranstaltungen zeigen
+  show_all:       Ältere Veranstaltungen zeigen
   show_less:      Weniger Veranstaltungen zeigen
   materials:      Seminarunterlagen
   qis:            Vorlesungsverzeichnis
@@ -32,7 +33,7 @@ publications:
   editors:        Hrsg
   in:             In
   publisher:      Verlag
-  show_all:       Alle Veröffentlichungen zeigen
+  show_all:       Ältere Veröffentlichungen zeigen
   show_less:      Weniger Veröffentlichungen zeigen
   submitted:      Eingereicht
 
