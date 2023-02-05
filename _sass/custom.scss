@@ -82,6 +82,17 @@ section button.show-more {
   }
 }
 
+//////////////
+//  footer  //
+//////////////
+
+@include media-breakpoint-up(md) {
+  footer .icons,
+  footer .copyright {
+    margin-left: $left_column;
+  }
+}
+
 footer .icons a {
   font-size: 1.5rem;
   color: $navbar-light-color;

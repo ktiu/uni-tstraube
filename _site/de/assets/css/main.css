@@ -5357,6 +5357,8 @@ section ul { list-style: square; padding-left: 1em; margin-left: 0; }
 
 @media (min-width: 768px) { section button.show-more { margin-left: 20%; } }
 
+@media (min-width: 768px) { footer .icons, footer .copyright { margin-left: 20%; } }
+
 footer .icons a { font-size: 1.5rem; color: rgba(0, 0, 0, 0.55); }
 
 footer .icons a:hover { color: rgba(0, 0, 0, 0.7); }
