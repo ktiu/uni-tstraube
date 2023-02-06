@@ -39,6 +39,9 @@ publications:
 
 contact:
   email:          E-Mail
+  crypto:         Verschlüsselung
+  cert:           SSL-Zertifikat herunterladen
+  chain:          CA Chain herunterladen
   phone:          Telefon
   fax:            Telefax
   hours_header:   Sprech&shy;stunde

@@ -11,6 +11,14 @@ short_title: short_titles.contact
 {% endcapture %}
 {% include section_row.html header=header content=content %}
 
+<!-- {% capture header %} -->
+<!-- {% t contact.crypto %} -->
+<!-- {% endcapture %} -->
+<!-- {% capture content %} -->
+<!-- <p><a href="where">{% t contact.cert %}</a><br/><a href="where">{% t contact.chain %}</a></p> -->
+<!-- {% endcapture %} -->
+<!-- {% include section_row.html header=header content=content %} -->
+
 {% capture header %}
 {% t contact.pronouns_header %}
 {% endcapture %}
@@ -27,7 +35,6 @@ short_title: short_titles.contact
 {{ hours | markdownify | strip | newline_to_br }}
 {% endcapture %}
 {% include section_row.html header=header content=content %}
-
 
 {% capture header %}
 {% t contact.phone %}

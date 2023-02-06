@@ -8,7 +8,7 @@
         <h1 class="text-center text-md-start">{% if site.prefix %}{{ site.prefix }} {% endif %}{{ site.name }}</h1>
         <div class="position text-center text-md-start">{% t header.position %}</div>
         <div class="position text-center text-md-start">
-          <i class="fas fa-envelope me-1"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          <i class="fas fa-envelope me-1"></i> <a href="mailto:{{ site.name | append: " <" | append: site.email | append: ">" | url_encode }}">{{ site.email }}</a>
         </div>
       </div>
     </div>

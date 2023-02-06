@@ -39,6 +39,9 @@ publications:
 
 contact:
   email:          E-mail
+  crypto:         Encryption
+  cert:           Download SSL certificate
+  chain:          Download CA Chain
   phone:          Phone
   fax:            Fax
   hours_header:   Office hours
